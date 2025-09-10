@@ -14,6 +14,7 @@ import { useFilteredMeals } from '@/hooks/useFilterMeals';
 import { Chip } from '@/components/Chip';
 import { Meal } from '@/components/Meal';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
+import { useColorScheme } from '@/hooks/useColorScheme';
 
 const mealTypes = [
   'all',
@@ -28,7 +29,7 @@ export default function HomeScreen() {
   const [keyword, setKeyword] = useState('');
   const [showFilters, setShowFilters] = useState(true);
   const [activeType, setActiveType] = useState('all');
-
+  const theme = useColorScheme() ?? 'light';
   const { top } = useSafeAreaInsets();
 
   const filteredMeals = useFilteredMeals(keyword, activeType);
@@ -44,7 +45,7 @@ export default function HomeScreen() {
         <MaterialIcons
           name={showFilters ? 'filter-alt-off' : 'filter-alt'}
           size={24}
-          color="black"
+          color={theme === 'light' ? 'black' : 'white'}
         />
       </TouchableOpacity>
 
