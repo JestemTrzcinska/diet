@@ -10,3 +10,11 @@ export interface MealState {
   type: string;
   products: ProductState[];
 }
+
+export interface Nutrition {
+  name: string;
+  calories: number;
+  protein: number;
+  carbohydrates: number;
+  fat: number;
+}

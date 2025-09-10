@@ -1,9 +1,10 @@
 import { ThemedView } from '@/components/ThemedView';
 import { ThemedText } from '@/components/ThemedText';
-import { MealState, ProductState } from '@/constants/types';
+import { MealState, Nutrition, ProductState } from '@/constants/types';
 import { Platform, StyleSheet, TouchableOpacity } from 'react-native';
 import { useSelectedMeals } from '@/context/Context';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
+const nutritionDB = require('@/assets/calories.json');
 
 interface Props {
   item: MealState;
@@ -21,11 +22,26 @@ export const Meal = ({ item, deleteMeal }: Props) => {
     }
   };
 
+  function calculateMealCalories() {
+    return item.products.reduce((totalCalories, product) => {
+      const nutritionDBElement = nutritionDB.find(
+        (element: Nutrition) => element.name === product.name,
+      );
+      if (nutritionDBElement) {
+        return (
+          totalCalories + (nutritionDBElement.calories / 100) * product.grams
+        );
+      } else {
+        return totalCalories;
+      }
+    }, 0);
+  }
+
   return (
     <TouchableOpacity style={styles.mealContainer} onPress={handlePress}>
       <ThemedView style={styles.add}>
         <ThemedText style={styles.type} type="subtitle">
-          - {item.type}
+          - {item.type} {calculateMealCalories()} kcal
         </ThemedText>
         <MaterialIcons
           color={deleteMeal ? 'red' : 'green'}
