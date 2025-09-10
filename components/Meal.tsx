@@ -23,18 +23,20 @@ export const Meal = ({ item, deleteMeal }: Props) => {
   };
 
   function calculateMealCalories() {
-    return item.products.reduce((totalCalories, product) => {
-      const nutritionDBElement = nutritionDB.find(
-        (element: Nutrition) => element.name === product.name,
-      );
-      if (nutritionDBElement) {
-        return (
-          totalCalories + (nutritionDBElement.calories / 100) * product.grams
+    return item.products
+      .reduce((totalCalories, product) => {
+        const nutritionDBElement = nutritionDB.find(
+          (element: Nutrition) => element.name === product.name,
         );
-      } else {
-        return totalCalories;
-      }
-    }, 0);
+        if (nutritionDBElement) {
+          return (
+            totalCalories + (nutritionDBElement.calories / 100) * product.grams
+          );
+        } else {
+          return totalCalories;
+        }
+      }, 0)
+      .toFixed(0);
   }
 
   return (
@@ -45,7 +47,7 @@ export const Meal = ({ item, deleteMeal }: Props) => {
         </ThemedText>
         <MaterialIcons
           color={deleteMeal ? 'red' : 'green'}
-          size={Platform.OS === 'web' ? 48 : 22}
+          size={Platform.OS === 'web' ? 42 : 22}
           name={deleteMeal ? 'delete' : 'add'}
         />
       </ThemedView>
@@ -82,6 +84,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     paddingTop: 8,
+    top: 10,
   },
   type: {
     fontSize: 14,

@@ -7,10 +7,13 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { HelloWave } from '@/components/HelloWave';
 import * as Clipboard from 'expo-clipboard';
 import { MealState } from '@/constants/types';
+import { useState } from 'react';
+import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 
 export default function Lists() {
   const { selectedMeals } = useSelectedMeals();
   const { top } = useSafeAreaInsets();
+  const [showFilters, setShowFilters] = useState(true);
 
   const generateShoppingList = async (meals: MealState[]) => {
     const allProducts = meals.flatMap(meal => meal.products);
@@ -57,12 +60,26 @@ export default function Lists() {
   };
 
   return (
-    <ThemedView style={[styles.container, { paddingTop: top }]}>
+    <ThemedView
+      style={[
+        styles.container,
+        { paddingTop: top },
+        Platform.OS === 'web' ? { paddingTop: 32 } : {},
+      ]}>
       <ThemedView style={[styles.titleContainer, { paddingTop: top }]}>
         <HelloWave />
         <ThemedText type="title">Lista wybranych posiłków</ThemedText>
       </ThemedView>
-      {selectedMeals.length > 0 && (
+
+      <TouchableOpacity onPress={() => setShowFilters(!showFilters)}>
+        <MaterialIcons
+          name={showFilters ? 'filter-alt-off' : 'filter-alt'}
+          size={24}
+          color="black"
+        />
+      </TouchableOpacity>
+
+      {showFilters && selectedMeals.length > 0 && (
         <>
           <TouchableOpacity
             onPress={() => generateShoppingList(selectedMeals)}

@@ -1,4 +1,9 @@
-import { FlatList, StyleSheet, TextInput } from 'react-native';
+import {
+  FlatList,
+  StyleSheet,
+  TextInput,
+  TouchableOpacity,
+} from 'react-native';
 
 import { HelloWave } from '@/components/HelloWave';
 import { ThemedText } from '@/components/ThemedText';
@@ -8,18 +13,20 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useFilteredMeals } from '@/hooks/useFilterMeals';
 import { Chip } from '@/components/Chip';
 import { Meal } from '@/components/Meal';
+import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 
 const mealTypes = [
   'all',
   'Śniadanie',
   'Drugie śniadanie',
   'Obiad',
-  'Kolacja',
   'Podwieczorek',
+  'Kolacja',
 ];
 
 export default function HomeScreen() {
   const [keyword, setKeyword] = useState('');
+  const [showFilters, setShowFilters] = useState(true);
   const [activeType, setActiveType] = useState('all');
 
   const { top } = useSafeAreaInsets();
@@ -33,26 +40,38 @@ export default function HomeScreen() {
         <HelloWave />
       </ThemedView>
 
-      <ThemedView>
-        <ThemedText type="defaultSemiBold">Szukaj</ThemedText>
-        <TextInput
-          value={keyword}
-          onChangeText={setKeyword}
-          style={styles.input}
+      <TouchableOpacity onPress={() => setShowFilters(!showFilters)}>
+        <MaterialIcons
+          name={showFilters ? 'filter-alt-off' : 'filter-alt'}
+          size={24}
+          color="black"
         />
-        <ThemedText>znaleziono {filteredMeals.length} posiłków</ThemedText>
-      </ThemedView>
+      </TouchableOpacity>
 
-      <ThemedView style={styles.chipContainer}>
-        {mealTypes.map(type => (
-          <Chip
-            key={type}
-            type={type}
-            activeType={activeType}
-            setActiveType={setActiveType}
-          />
-        ))}
-      </ThemedView>
+      {showFilters && (
+        <>
+          <ThemedView>
+            <ThemedText type="defaultSemiBold">Szukaj</ThemedText>
+            <TextInput
+              value={keyword}
+              onChangeText={setKeyword}
+              style={styles.input}
+            />
+            <ThemedText>znaleziono {filteredMeals.length} posiłków</ThemedText>
+          </ThemedView>
+
+          <ThemedView style={styles.chipContainer}>
+            {mealTypes.map(type => (
+              <Chip
+                key={type}
+                type={type}
+                activeType={activeType}
+                setActiveType={setActiveType}
+              />
+            ))}
+          </ThemedView>
+        </>
+      )}
 
       <FlatList
         data={filteredMeals}
