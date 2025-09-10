@@ -5,6 +5,12 @@ on:
     branches:
       - main
 
+# Add this permissions block
+permissions:
+  contents: write # This grants write access to the contents of the repository
+  pages: write # This grants write access for GitHub Pages deployment
+  id-token: write # This is required for some GitHub Pages actions
+
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
