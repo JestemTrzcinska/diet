@@ -1,31 +1,14 @@
-import {
-  FlatList,
-  Platform,
-  StyleSheet,
-  TextInput,
-  TouchableOpacity,
-} from 'react-native';
+import { FlatList, Platform, StyleSheet, TextInput } from 'react-native';
 
 import { HelloWave } from '@/components/HelloWave';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { useState } from 'react';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { useFilteredMeals } from '@/hooks/useFilterMeals';
+import { Chip } from '@/components/Chip';
+import { Meal } from '@/components/Meal';
 
-interface Product {
-  name: string;
-  grams: number;
-  quantity: string;
-}
-
-interface Meal {
-  name: string;
-  description: string;
-  type: string;
-  products: Product[];
-}
-
-const meals: Meal[] = require('@/assets/dieta-gem.json');
 const mealTypes = [
   'all',
   'Śniadanie',
@@ -41,54 +24,7 @@ export default function RootLayout() {
 
   const { top } = useSafeAreaInsets();
 
-  const filteredMeals = meals.filter(meal => {
-    const isMatchingType = activeType === 'all' || meal.type === activeType;
-    const isMatchingName = meal.name
-      .toLowerCase()
-      .includes(keyword.toLowerCase());
-    const isMatchingProducts = meal.products.some(product =>
-      product.name.toLowerCase().includes(keyword.toLowerCase()),
-    );
-
-    return isMatchingType && (isMatchingName || isMatchingProducts);
-  });
-
-  const renderFilterChips = ({ item }: { item: string }) => (
-    <TouchableOpacity
-      style={[styles.chip, activeType === item && styles.activeChip]}
-      onPress={() => setActiveType(item)}>
-      <ThemedText style={styles.chipText}>{item}</ThemedText>
-    </TouchableOpacity>
-  );
-
-  const renderItem = ({ item }: { item: Meal }) => {
-    return (
-      <ThemedView style={styles.mealContainer}>
-        <ThemedText style={styles.type} type="subtitle">
-          - {item.type}
-        </ThemedText>
-        <ThemedText type="title">{item.name}</ThemedText>
-        {item.description && (
-          <ThemedText>
-            {String(item.description)
-              .replaceAll('(?<!\d)\.\s', '\n')
-              .replaceAll(': ', '\n')}
-          </ThemedText>
-        )}
-        {item.products.map((product: Product, index: number) => (
-          <ThemedView key={index} style={styles.productContainer}>
-            <ThemedText style={styles.productText}>{product.name}</ThemedText>
-            <ThemedText style={styles.productText}>
-              {product.grams} gramów
-            </ThemedText>
-            <ThemedText style={styles.productText}>
-              {product.quantity}
-            </ThemedText>
-          </ThemedView>
-        ))}
-      </ThemedView>
-    );
-  };
+  const filteredMeals = useFilteredMeals(keyword, activeType);
 
   return (
     <ThemedView style={styles.container}>
@@ -108,10 +44,17 @@ export default function RootLayout() {
       </ThemedView>
 
       <ThemedView style={styles.chipContainer}>
-        {mealTypes.map(item => renderFilterChips({ item }))}
+        {mealTypes.map(type => (
+          <Chip
+            key={type}
+            type={type}
+            activeType={activeType}
+            setActiveType={setActiveType}
+          />
+        ))}
       </ThemedView>
 
-      <FlatList data={filteredMeals} renderItem={renderItem} />
+      <FlatList data={filteredMeals} renderItem={Meal} />
     </ThemedView>
   );
 }
@@ -141,43 +84,5 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     flexWrap: 'wrap',
     flexDirection: 'row',
-  },
-  chip: {
-    paddingVertical: 5,
-    paddingHorizontal: 10,
-    borderRadius: 20,
-    backgroundColor: '#e0e0e0',
-    marginRight: 10,
-    marginBottom: 10,
-  },
-  activeChip: {
-    backgroundColor: 'dodgerblue',
-  },
-  chipText: {
-    color: '#333',
-    textTransform: 'capitalize',
-  },
-
-  mealContainer: {
-    gap: 8,
-    padding: Platform.OS === 'web' ? 15 : 5,
-    paddingVertical: 20,
-    // @ts-ignore
-    width: Platform.OS === 'web' ? '50%' : '100%' - 15,
-  },
-  type: {
-    right: Platform.OS === 'web' ? 15 : 8,
-  },
-  productContainer: {
-    marginLeft: Platform.OS === 'web' ? 20 : 10,
-    flexDirection: 'row',
-    gap: 8,
-    justifyContent: 'space-between',
-    flex: 1,
-    borderBottomWidth: 1,
-    borderBottomColor: 'gray',
-  },
-  productText: {
-    flex: 1,
   },
 });
