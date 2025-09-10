@@ -18,7 +18,7 @@ const mealTypes = [
   'Podwieczorek',
 ];
 
-export default function RootLayout() {
+export default function HomeScreen() {
   const [keyword, setKeyword] = useState('');
   const [activeType, setActiveType] = useState('all');
 
@@ -54,7 +54,11 @@ export default function RootLayout() {
         ))}
       </ThemedView>
 
-      <FlatList data={filteredMeals} renderItem={Meal} />
+      <FlatList
+        data={filteredMeals}
+        renderItem={({ item }) => <Meal item={item} />}
+        contentContainerStyle={{ paddingBottom: 150 }}
+      />
     </ThemedView>
   );
 }

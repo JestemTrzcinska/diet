@@ -1,14 +1,38 @@
 import { ThemedView } from '@/components/ThemedView';
 import { ThemedText } from '@/components/ThemedText';
-import { MealState, ProductState } from '@/app/types';
-import { Platform, StyleSheet } from 'react-native';
+import { MealState, ProductState } from '@/constants/types';
+import { Platform, StyleSheet, TouchableOpacity } from 'react-native';
+import { useSelectedMeals } from '@/context/Context';
+import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 
-export const Meal = ({ item }: { item: MealState }) => {
+interface Props {
+  item: MealState;
+  deleteMeal?: boolean;
+}
+
+export const Meal = ({ item, deleteMeal }: Props) => {
+  const { addToList, deleteFromList } = useSelectedMeals();
+
+  const handlePress = () => {
+    if (deleteMeal) {
+      deleteFromList(item);
+    } else {
+      addToList(item);
+    }
+  };
+
   return (
-    <ThemedView style={styles.mealContainer}>
-      <ThemedText style={styles.type} type="subtitle">
-        - {item.type}
-      </ThemedText>
+    <TouchableOpacity style={styles.mealContainer} onPress={handlePress}>
+      <ThemedView style={styles.add}>
+        <ThemedText style={styles.type} type="subtitle">
+          - {item.type}
+        </ThemedText>
+        <MaterialIcons
+          color={deleteMeal ? 'red' : 'green'}
+          size={Platform.OS === 'web' ? 48 : 22}
+          name={deleteMeal ? 'delete' : 'add'}
+        />
+      </ThemedView>
       <ThemedText type="title">{item.name}</ThemedText>
       {item.description && (
         <ThemedText>
@@ -26,7 +50,7 @@ export const Meal = ({ item }: { item: MealState }) => {
           <ThemedText style={styles.productText}>{product.quantity}</ThemedText>
         </ThemedView>
       ))}
-    </ThemedView>
+    </TouchableOpacity>
   );
 };
 
@@ -36,6 +60,12 @@ const styles = StyleSheet.create({
     padding: Platform.OS === 'web' ? 15 : 5,
     paddingVertical: 20,
     width: Platform.OS === 'web' ? '50%' : '100%',
+  },
+  add: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    flexWrap: 'wrap',
   },
   type: {
     right: Platform.OS === 'web' ? 15 : 8,

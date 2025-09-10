@@ -1,4 +1,4 @@
-import { MealState } from '@/app/types';
+import { MealState } from '@/constants/types';
 
 const meals: MealState[] = require('@/assets/dieta-gem.json');
 
