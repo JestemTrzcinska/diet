@@ -37,38 +37,6 @@
     "type": "Śniadanie"
   },
   {
-    "name": "Mleko do kawy i Jajecznica z pieczarkami",
-    "products": [
-      {
-        "name": "Mleko bezlaktozowe 2%",
-        "quantity": "0.6 x Szklanka",
-        "grams": 150
-      },
-      {
-        "name": "Jaja kurze całe",
-        "quantity": "2 x Sztuka",
-        "grams": 112
-      },
-      {
-        "name": "Pieczarka uprawna, świeża",
-        "quantity": "4 x Sztuka",
-        "grams": 80
-      },
-      {
-        "name": "Bułka wysokobiałkowa Lidl",
-        "quantity": "0.5 x Sztuka",
-        "grams": 40
-      },
-      {
-        "name": "Oliwa z oliwek",
-        "quantity": "0.5 x Łyżka",
-        "grams": 5
-      }
-    ],
-    "description": "Pieczarki pokrój i podduś na oliwie. Do pieczarek wbij jajka i usmaż. Zjedz jajecznicę z pieczywem.",
-    "type": "Drugie śniadanie"
-  },
-  {
     "name": "Pieczone udko z kurczaka, Ziemniaki z koperkiem i Mizeria z jogurtem",
     "products": [
       {
@@ -151,38 +119,6 @@
     ],
     "description": "Owoce pokrój w kosteczkę, wymieszaj i zjedz.",
     "type": "Kolacja"
-  },
-  {
-    "name": "Mleko do kawy, Jajecznica z pieczarkami",
-    "products": [
-      {
-        "name": "Mleko bezlaktozowe 2%",
-        "quantity": "0.6 x Szklanka",
-        "grams": 150
-      },
-      {
-        "name": "Jaja kurze całe",
-        "quantity": "2 x Sztuka",
-        "grams": 112
-      },
-      {
-        "name": "Pieczarka uprawna, świeża",
-        "quantity": "4 x Sztuka",
-        "grams": 80
-      },
-      {
-        "name": "Bułka wysokobiałkowa Lidl",
-        "quantity": "0.5 x Sztuka",
-        "grams": 40
-      },
-      {
-        "name": "Oliwa z oliwek",
-        "quantity": "0.5 x Łyżka",
-        "grams": 5
-      }
-    ],
-    "description": "1. Pieczarki pokrój i podduś na oliwie. 2. Do pieczarek wbij jajka i usmaż. 3. Zjedz jajecznicę z pieczywem.",
-    "type": "Drugie śniadanie"
   },
   {
     "name": "Pieczone udko z kurczaka, Ziemniaki z koperkiem, Mizeria z jogurtem",
@@ -9968,28 +9904,6 @@
     "type": "Śniadanie"
   },
   {
-    "name": "Jajecznica z pomidorami",
-    "products": [
-      {
-        "name": "Pomidor",
-        "quantity": "1 x Sztuka",
-        "grams": 120
-      },
-      {
-        "name": "Jaja kurze całe",
-        "quantity": "2 x Sztuka",
-        "grams": 112
-      },
-      {
-        "name": "Masło ekstra",
-        "quantity": "1 x Łyżeczka",
-        "grams": 5
-      }
-    ],
-    "description": "1. Usmaż jajecznicę na rozgrzanym tłuszczu. 2. Podaj z pokrojonym pomidorem.",
-    "type": "Drugie śniadanie"
-  },
-  {
     "name": "Bułka wysokobiałkowa Lidl",
     "products": [
       {
@@ -13779,43 +13693,6 @@
     ],
     "description": "1. Dorsza obtocz w ziołach prowansalskich, tymianku i pieprzu. 2. Rybę polej 0,5 łyżki oliwy z oliwek, posyp posiekaną bazylią i skrop sokiem z cytryny. 3. Przyprawioną rybę połóż na blaszce do pieczenia. 4. Batata pokrój w słupki. 5. Frytki polej 0,25 łyżki oliwy i połóż na blaszce rozłożone obok dorsza. 6. Wstaw blachę do piekarnika rozgrzanego do 200 stopni, z włączonym termoobiegiem i piecz przez ok. 20-25 minut. 7. Rukolę wymieszaj z pomidorkami koktajlowymi i suszonymi pomidorami. 8. Ryż ugotuj według instrukcji na opakowaniu. 9. Na talerz wyłóż rybę, frytki z batatów, ryż i sałatkę z rukoli.",
     "type": "Obiad"
-  },
-  {
-    "name": "Jajecznica z warzywną bułeczką",
-    "products": [
-      {
-        "name": "Jaja kurze całe",
-        "quantity": "2 x Sztuka",
-        "grams": 112
-      },
-      {
-        "name": "Rzodkiewka",
-        "quantity": "3 x Sztuka",
-        "grams": 45
-      },
-      {
-        "name": "Bułka wysokobiałkowa Lidl",
-        "quantity": "0.5 x Sztuka",
-        "grams": 40
-      },
-      {
-        "name": "Rukola",
-        "quantity": "1 x Garść",
-        "grams": 20
-      },
-      {
-        "name": "Szczypiorek",
-        "quantity": "1 x Łyżeczka",
-        "grams": 5
-      },
-      {
-        "name": "Masło ekstra",
-        "quantity": "0.5 x Łyżeczka",
-        "grams": 2.5
-      }
-    ],
-    "description": "Usmaż jajecznicę na maśle (połowie). Posyp szczypiorkiem. Przygotuj pół bułki z warzywami. Podaj z jajecznicą.",
-    "type": "Kolacja"
   },
   {
     "name": "Kanapki z pomidorem i sałatą",

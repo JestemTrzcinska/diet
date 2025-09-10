@@ -17,6 +17,16 @@ export const SelectedMealsProvider = ({
   const [selectedMeals, setSelectedMeals] = useState<MealState[]>([]);
 
   const addToList = (meal: MealState) => {
+    const isMealInList = selectedMeals.some(m =>
+      Object.entries(m).every(
+        ([key, value]) => meal.hasOwnProperty(key) && meal[key] === value,
+      ),
+    );
+
+    if (isMealInList) {
+      alert('Posiłek jest już w liście!');
+      return;
+    }
     setSelectedMeals(prev => [...prev, meal]);
   };
 
@@ -32,7 +42,9 @@ export const SelectedMealsProvider = ({
 export const useSelectedMeals = () => {
   const context = useContext(Context);
   if (context === undefined) {
-    throw new Error('useSelectedMeals must be used within a SelectedMealsProvider');
+    throw new Error(
+      'useSelectedMeals must be used within a SelectedMealsProvider',
+    );
   }
   return context;
 };
