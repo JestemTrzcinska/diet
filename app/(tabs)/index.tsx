@@ -1,4 +1,4 @@
-import { FlatList, Platform, StyleSheet, TextInput } from 'react-native';
+import { FlatList, StyleSheet, TextInput } from 'react-native';
 
 import { HelloWave } from '@/components/HelloWave';
 import { ThemedText } from '@/components/ThemedText';
@@ -66,27 +66,27 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: Platform.OS === 'web' ? 32 : 10,
-    gap: 16,
-    overflow: 'hidden',
+    padding: 16,
   },
   titleContainer: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 8,
+    marginBottom: 16,
   },
   input: {
-    backgroundColor: '#fff',
-    padding: 10,
-    borderRadius: 5,
-    width: Platform.OS === 'web' ? '50%' : '100%',
-    borderColor: 'blue',
+    padding: 14,
+    borderRadius: 8,
+    width: '100%',
+    borderColor: '#e0e0e0',
     borderWidth: 1,
+    fontSize: 16,
+    marginBottom: 8,
   },
-
   chipContainer: {
-    paddingHorizontal: 10,
-    flexWrap: 'wrap',
     flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 8,
+    marginVertical: 12,
   },
 });

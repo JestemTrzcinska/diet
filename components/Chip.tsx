@@ -6,30 +6,32 @@ interface Props {
   activeType: string;
   setActiveType: (type: string) => void;
 }
-export const Chip = ({ type, activeType, setActiveType }: Props) => {
-  return (
-    <TouchableOpacity
-      style={[styles.chip, activeType === type && styles.activeChip]}
-      onPress={() => setActiveType(type)}>
-      <ThemedText style={styles.chipText}>{type}</ThemedText>
-    </TouchableOpacity>
-  );
-};
+export const Chip = ({ type, activeType, setActiveType }: Props) => (
+  <TouchableOpacity
+    style={[styles.chip, activeType === type && styles.activeChip]}
+    onPress={() => setActiveType(type)}>
+    <ThemedText style={styles.chipText}>{type}</ThemedText>
+  </TouchableOpacity>
+);
 
 const styles = StyleSheet.create({
   chip: {
-    paddingVertical: 5,
-    paddingHorizontal: 10,
+    paddingVertical: 8,
+    paddingHorizontal: 16,
     borderRadius: 20,
     backgroundColor: '#e0e0e0',
-    marginRight: 10,
-    marginBottom: 10,
+    minHeight: 36,
+    minWidth: 36,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   activeChip: {
-    backgroundColor: 'dodgerblue',
+    backgroundColor: '#1e88e5',
   },
   chipText: {
-    color: '#333',
+    color: '#333333',
     textTransform: 'capitalize',
+    fontSize: 14,
+    fontWeight: '500',
   },
 });

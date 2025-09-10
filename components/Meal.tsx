@@ -73,29 +73,29 @@ export const Meal = ({ item, deleteMeal }: Props) => {
 const styles = StyleSheet.create({
   mealContainer: {
     gap: 8,
-    padding: Platform.OS === 'web' ? 15 : 5,
-    paddingVertical: 20,
-    width: Platform.OS === 'web' ? '50%' : '100%',
+    padding: 12,
+    marginBottom: 12,
+    borderRadius: 10,
   },
   add: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    flexWrap: 'wrap',
+    paddingTop: 8,
   },
   type: {
-    right: Platform.OS === 'web' ? 15 : 8,
+    fontSize: 14,
+    color: '#666',
   },
   productContainer: {
-    marginLeft: Platform.OS === 'web' ? 20 : 10,
     flexDirection: 'row',
-    gap: 8,
     justifyContent: 'space-between',
-    flex: 1,
+    paddingVertical: 8,
     borderBottomWidth: 1,
-    borderBottomColor: 'gray',
+    borderBottomColor: '#f5f5f5',
   },
   productText: {
     flex: 1,
+    fontSize: 14,
   },
 });
