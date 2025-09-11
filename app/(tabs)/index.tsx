@@ -28,17 +28,18 @@ const mealTypes = [
 ];
 
 export default function HomeScreen() {
-  const [keyword, setKeyword] = useState('');
-  const [showFilters, setShowFilters] = useState(true);
-  const [activeType, setActiveType] = useState('all');
   const theme = useColorScheme() ?? 'light';
-  const { top } = useSafeAreaInsets();
-
-  const filteredMeals = useFilteredMeals(keyword, activeType);
   const color = useThemeColor(
     { light: Colors.light.text, dark: Colors.dark.text },
     'text',
   );
+  const { top } = useSafeAreaInsets();
+
+  const [keyword, setKeyword] = useState('');
+  const [showFilters, setShowFilters] = useState(true);
+  const [activeType, setActiveType] = useState('all');
+
+  const filteredMeals = useFilteredMeals(keyword, activeType);
 
   return (
     <ThemedView style={styles.container}>

@@ -9,10 +9,13 @@ import * as Clipboard from 'expo-clipboard';
 import { MealState } from '@/constants/types';
 import { useState } from 'react';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
+import { useColorScheme } from '@/hooks/useColorScheme';
 
 export default function Lists() {
-  const { selectedMeals } = useSelectedMeals();
+  const theme = useColorScheme() ?? 'light';
   const { top } = useSafeAreaInsets();
+  const { selectedMeals } = useSelectedMeals();
+
   const [showFilters, setShowFilters] = useState(true);
 
   const generateShoppingList = async (meals: MealState[]) => {
@@ -75,28 +78,35 @@ export default function Lists() {
         <ThemedText type="title">Lista wybranych posiłków</ThemedText>
       </ThemedView>
 
-      <TouchableOpacity onPress={() => setShowFilters(!showFilters)}>
-        <MaterialIcons
-          name={showFilters ? 'filter-alt-off' : 'filter-alt'}
-          size={24}
-          color="black"
-        />
-      </TouchableOpacity>
-
-      {showFilters && selectedMeals.length > 0 && (
+      {selectedMeals.length > 0 && (
         <>
           <TouchableOpacity
-            onPress={() => generateShoppingList(selectedMeals)}
-            style={styles.button}>
-            <ThemedText>Wygeneruj listę zakupów</ThemedText>
+            onPress={() => setShowFilters(!showFilters)}
+            style={styles.titleContainer}>
+            <MaterialIcons
+              name={showFilters ? 'visibility-off' : 'visibility'}
+              size={24}
+              color={theme === 'light' ? 'black' : 'white'}
+            />
+            <ThemedText>przyciski</ThemedText>
           </TouchableOpacity>
-          <TouchableOpacity
-            onPress={() =>
-              generateShoppingList([...selectedMeals, ...selectedMeals])
-            }
-            style={styles.button}>
-            <ThemedText>Wygeneruj listę zakupów dla dwóch osób</ThemedText>
-          </TouchableOpacity>
+
+          {showFilters && (
+            <>
+              <TouchableOpacity
+                onPress={() => generateShoppingList(selectedMeals)}
+                style={styles.button}>
+                <ThemedText>Wygeneruj listę zakupów</ThemedText>
+              </TouchableOpacity>
+              <TouchableOpacity
+                onPress={() =>
+                  generateShoppingList([...selectedMeals, ...selectedMeals])
+                }
+                style={styles.button}>
+                <ThemedText>Wygeneruj listę zakupów dla dwóch osób</ThemedText>
+              </TouchableOpacity>
+            </>
+          )}
         </>
       )}
       <FlatList
