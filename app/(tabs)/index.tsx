@@ -15,6 +15,8 @@ import { Chip } from '@/components/Chip';
 import { Meal } from '@/components/Meal';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import { useColorScheme } from '@/hooks/useColorScheme';
+import { useThemeColor } from '@/hooks/useThemeColor';
+import { Colors } from '@/constants/Colors';
 
 const mealTypes = [
   'all',
@@ -33,6 +35,10 @@ export default function HomeScreen() {
   const { top } = useSafeAreaInsets();
 
   const filteredMeals = useFilteredMeals(keyword, activeType);
+  const color = useThemeColor(
+    { light: Colors.light.text, dark: Colors.dark.text },
+    'text',
+  );
 
   return (
     <ThemedView style={styles.container}>
@@ -56,7 +62,7 @@ export default function HomeScreen() {
             <TextInput
               value={keyword}
               onChangeText={setKeyword}
-              style={styles.input}
+              style={[styles.input, { color }]}
             />
             <ThemedText>znaleziono {filteredMeals.length} posiłków</ThemedText>
           </ThemedView>
