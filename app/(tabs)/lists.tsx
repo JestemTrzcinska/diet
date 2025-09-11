@@ -19,7 +19,10 @@ export default function Lists() {
     const allProducts = meals.flatMap(meal => meal.products);
 
     // Create a map to sum quantities of products with the same name and unit
-    const productMap = new Map<string, { quantity: number; unit: string }>();
+    const productMap = new Map<
+      string,
+      { quantity: number; unit: string; grams: number }
+    >();
 
     allProducts.forEach(product => {
       // Parse the quantity string (e.g., "1 x szklanka" -> quantity = 1, unit = "szklanka")
@@ -34,20 +37,22 @@ export default function Lists() {
         productMap.set(key, {
           quantity: existing.quantity + quantity,
           unit: unit,
+          grams: existing.grams + product.grams,
         });
       } else {
         productMap.set(key, {
           quantity,
           unit,
+          grams: product.grams,
         });
       }
     });
 
     // Convert the map back to an array of strings
     const textToCopy = Array.from(productMap.entries())
-      .map(([key, { quantity, unit }]) => {
+      .map(([key, { quantity, unit, grams }]) => {
         const name = key.split(' ').slice(0, -1).join(' '); // Remove the unit from the key
-        return `${name} ${quantity} x ${unit}`;
+        return `${name} (${quantity} x ${unit}) ${grams} g`;
       })
       .join('\n');
 
@@ -58,7 +63,6 @@ export default function Lists() {
       alert('Brak produktów do skopiowania!');
     }
   };
-
   return (
     <ThemedView
       style={[
