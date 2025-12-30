@@ -79,6 +79,38 @@
     "type": "Śniadanie"
   },
   {
+    "name": "Owsianka Mars",
+    "products": [
+      {
+        "name": "Mleko bezlaktozowe 2%",
+        "quantity": "1 x Szklanka",
+        "grams": 200
+      },
+      {
+        "name": "Miód",
+        "quantity": "1 x Łyżka",
+        "grams": 24
+      },
+      {
+        "name": "Masło orzechowe",
+        "quantity": "2 x Łyżeczka",
+        "grams": 20
+      },
+      {
+        "name": "Gorzka czekolada rozpuszczona",
+        "quantity": "1 x Sztuka",
+        "grams": 10
+      },
+      {
+        "name": "Płatki owsiane",
+        "quantity": "5 x Łyżka",
+        "grams": 50
+      }
+    ],
+    "description": "1. Płatki owsiane gotujemy w mleku z dodatkiem łyżeczki miodu i 50 ml wody przez około 6-7 minut. 2. Masło orzechowe mieszamy z pozostałym miodem. 3. Czekoladę rozpuszczamy. 4. W miseczce układamy owisiankę i polewamy czekoladą. Schładzamy w lodówce przez 20 minut.",
+    "type": "Drugie śniadanie"
+  },
+  {
     "name": "Pieczone udko z kurczaka, Ziemniaki z koperkiem i Mizeria z jogurtem",
     "products": [
       {
