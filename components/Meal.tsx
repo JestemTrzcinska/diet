@@ -55,7 +55,7 @@ export const Meal = ({ item, deleteMeal }: Props) => {
       {item.description && (
         <ThemedText>
           {String(item.description)
-            .replaceAll('(?<!\d)\.\s', '\n')
+            .replaceAll(/(\d+\.)\s+/g, '\n$1 ')
             .replaceAll(': ', '\n')}
         </ThemedText>
       )}
