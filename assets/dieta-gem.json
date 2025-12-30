@@ -37,6 +37,48 @@
     "type": "Śniadanie"
   },
   {
+    "name": "Shake snickers",
+    "products": [
+      {
+        "name": "Mleko bezlaktozowe 2%",
+        "quantity": "1 x Szklanka",
+        "grams": 250
+      },
+      {
+        "name": "Odżywka białkowa",
+        "quantity": "1 x Łyżeczka",
+        "grams": 4
+      },
+      {
+        "name": "Kakao",
+        "quantity": "1 x Łyżka",
+        "grams": 10
+      },
+      {
+        "name": "Lód",
+        "quantity": "2 x Sztuka",
+        "grams": 40
+      },
+      {
+        "name": "Masło orzechowe",
+        "quantity": "2 x Łyżeczka",
+        "grams": 20
+      },
+      {
+        "name": "Gorzka czekolada rozpuszczona",
+        "quantity": "1 x Sztuka",
+        "grams": 10
+      },
+      {
+        "name": "Płatki owsiane",
+        "quantity": "4 x Łyżka",
+        "grams": 40
+      }
+    ],
+    "description": "1. Do naczynia blendera wlewamy mleko, odżywkę, kakao, płatki, lód, sól oraz masło orzechowe. 2. Uzywamy blendera stopniowo dochodząc do najwyższych obrotów. 3. Ścianki szklanki, w której będzie szejk oblewamy rozpuszczoną gorzką czekoladą. 4. Do środka wlewamy zblendowany shake",
+    "type": "Śniadanie"
+  },
+  {
     "name": "Pieczone udko z kurczaka, Ziemniaki z koperkiem i Mizeria z jogurtem",
     "products": [
       {
