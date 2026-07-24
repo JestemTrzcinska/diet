@@ -1,5 +1,3760 @@
 [
   {
+    "name": "Zapiekankowe tosty z pieczarkami, mozzarellą i ketchupem",
+    "products": [
+      {
+        "name": "Chleb tostowy 3 ziarna",
+        "quantity": "3 x Kromka",
+        "grams": 90
+      },
+      {
+        "name": "Pieczarki uprawne",
+        "quantity": "7 x Sztuka",
+        "grams": 140
+      },
+      {
+        "name": "Ser mozzarella żółta",
+        "quantity": "5 x Plaster",
+        "grams": 75
+      },
+      {
+        "name": "Cebula",
+        "quantity": "1 x Porcja",
+        "grams": 20
+      },
+      {
+        "name": "Olej rzepakowy",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      },
+      {
+        "name": "Ketchup",
+        "quantity": "1 x Łyżka",
+        "grams": 20
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.3
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.3
+      },
+      {
+        "name": "Oregano suszone",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      }
+    ],
+    "description": "Pieczarki pokrój w plasterki, cebulę posiekaj. Usmaż cebulę na oleju 2-3 min, dodaj pieczarki i smaż 7-9 min aż się zrumienią. Dopraw solą i pieprzem. Na kromki chleba nałóż pieczarki, posyp startym serem. Zapiekaj w 200°C przez 5-8 min. Udekoruj ketchupem i oregano.",
+    "type": "Śniadanie"
+  },
+  {
+    "name": "Wrap z pastą jajeczną, awokado oraz roszponką",
+    "products": [
+      {
+        "name": "Tortilla pełnoziarnista",
+        "quantity": "3 x Sztuka",
+        "grams": 180
+      },
+      {
+        "name": "Jajko kurze całe",
+        "quantity": "5 x Sztuka",
+        "grams": 280
+      },
+      {
+        "name": "Jogurt naturalny 2%",
+        "quantity": "2 x Łyżka",
+        "grams": 40
+      },
+      {
+        "name": "Majonez light",
+        "quantity": "3 x Łyżka",
+        "grams": 60
+      },
+      {
+        "name": "Awokado",
+        "quantity": "1 x Porcja",
+        "grams": 140
+      },
+      {
+        "name": "Sok z cytryny",
+        "quantity": "1 x Łyżka",
+        "grams": 6
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Roszponka",
+        "quantity": "1 x Porcja",
+        "grams": 75
+      }
+    ],
+    "description": "Ugotuj jajka na twardo (7-8 min), ostudź i pokrój w kostkę. Wymieszaj z jogurtem i majonezem, dopraw solą i pieprzem. Awokado pokrój w plasterki i skrop sokiem z cytryny. Na tortillach rozłóż pastę jajeczną, ułóż awokado i roszponkę. Zwiń ciasno w wrapy. Na jeden posiłek 1,5 tortilli.",
+    "type": "Śniadanie"
+  },
+  {
+    "name": "Shake a la Snickers",
+    "products": [
+      {
+        "name": "Mleko 1,5%",
+        "quantity": "0.8 x Szklanka",
+        "grams": 200
+      },
+      {
+        "name": "Pudding proteinowy smak słony karmel Go Active",
+        "quantity": "1.5 x Opakowanie",
+        "grams": 300
+      },
+      {
+        "name": "Masło orzechowe",
+        "quantity": "2 x Łyżeczka",
+        "grams": 20
+      },
+      {
+        "name": "Daktyle, suszone",
+        "quantity": "1 x Porcja",
+        "grams": 20
+      },
+      {
+        "name": "Orzechy arachidowe",
+        "quantity": "1 x Porcja",
+        "grams": 15
+      },
+      {
+        "name": "Czekolada gorzka 70%",
+        "quantity": "1 x Kostka",
+        "grams": 10
+      },
+      {
+        "name": "Banan",
+        "quantity": "0.5 x Sztuka",
+        "grams": 60
+      }
+    ],
+    "description": "Daktyle zalej gorącą wodą na 15 min, odsącz. Wrzuć do blendera mleko, pudding, masło orzechowe, daktyle, orzechy, czekoladę i banana. Zblenduj na gładki koktajl, w razie potrzeby dolej wody. Kawałek czekolady i orzechów zostaw do dekoracji.",
+    "type": "Śniadanie"
+  },
+  {
+    "name": "Koktajl kokosowy",
+    "products": [
+      {
+        "name": "Mleczko kokosowe 12%",
+        "quantity": "0.5 x Opakowanie",
+        "grams": 180
+      },
+      {
+        "name": "Jogurt skyr",
+        "quantity": "2 x Opakowanie",
+        "grams": 300
+      },
+      {
+        "name": "Banan",
+        "quantity": "1 x Sztuka",
+        "grams": 120
+      },
+      {
+        "name": "Nasiona chia",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Płatki owsiane górskie",
+        "quantity": "3 x Łyżka",
+        "grams": 30
+      },
+      {
+        "name": "Cynamon mielony",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 2
+      },
+      {
+        "name": "Mleko roślinne niesłodzone",
+        "quantity": "0.3 x Szklanka",
+        "grams": 75
+      },
+      {
+        "name": "Erytrol",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      }
+    ],
+    "description": "Wszystkie składniki wrzuć do blendera i zblenduj na gładki koktajl. Jeśli jest zbyt gęsty, dodaj odrobinę wody.",
+    "type": "Śniadanie"
+  },
+  {
+    "name": "Koktajl z napojem proteinowym",
+    "products": [
+      {
+        "name": "Napój proteinowy Go Active słony karmel",
+        "quantity": "1 x Opakowanie",
+        "grams": 350
+      },
+      {
+        "name": "Mleko 1,5%",
+        "quantity": "0.4 x Szklanka",
+        "grams": 100
+      },
+      {
+        "name": "Płatki owsiane górskie",
+        "quantity": "4 x Łyżka",
+        "grams": 40
+      },
+      {
+        "name": "Jabłko",
+        "quantity": "1 x Sztuka",
+        "grams": 150
+      },
+      {
+        "name": "Masło orzechowe",
+        "quantity": "3.5 x Łyżeczka",
+        "grams": 35
+      }
+    ],
+    "description": "Płatki opcjonalnie zalej ciepłą wodą na 10-15 min do namięknięcia. Wszystkie składniki wrzuć do blendera i zblenduj na gładki koktajl. Jeśli jest zbyt gęsty, dodaj wody.",
+    "type": "Śniadanie"
+  },
+  {
+    "name": "Jagodowy koktajl z tapioką",
+    "products": [
+      {
+        "name": "Tapioka biała (Perełki)",
+        "quantity": "3 x Łyżka",
+        "grams": 30
+      },
+      {
+        "name": "Mleko 1,5%",
+        "quantity": "0.8 x Szklanka",
+        "grams": 200
+      },
+      {
+        "name": "Odżywka białkowa",
+        "quantity": "4 x Łyżka",
+        "grams": 40
+      },
+      {
+        "name": "Miód",
+        "quantity": "2 x Łyżeczka",
+        "grams": 24
+      },
+      {
+        "name": "Masło orzechowe",
+        "quantity": "3 x Łyżeczka",
+        "grams": 30
+      },
+      {
+        "name": "Jagody świeże lub mrożone",
+        "quantity": "1 x Porcja",
+        "grams": 150
+      }
+    ],
+    "description": "Ugotuj tapiokę wg instrukcji na opakowaniu i wystudź. Pozostałe składniki zblenduj na gładką masę, w razie potrzeby dolej wody. Tapiokę umieść w szklance i zalej koktajlem.",
+    "type": "Śniadanie"
+  },
+  {
+    "name": "Smoothie z malin oraz borówek",
+    "products": [
+      {
+        "name": "Serek wiejski bez laktozy",
+        "quantity": "1.5 x Opakowanie",
+        "grams": 300
+      },
+      {
+        "name": "Borówki amerykańskie, świeże lub mrożone",
+        "quantity": "1 x Porcja",
+        "grams": 150
+      },
+      {
+        "name": "Maliny świeże lub mrożone",
+        "quantity": "1 x Porcja",
+        "grams": 150
+      },
+      {
+        "name": "Syrop klonowy",
+        "quantity": "2 x Łyżeczka",
+        "grams": 20
+      },
+      {
+        "name": "Płatki owsiane górskie",
+        "quantity": "3 x Łyżka",
+        "grams": 30
+      },
+      {
+        "name": "Płatki migdałów",
+        "quantity": "1 x Porcja",
+        "grams": 20
+      },
+      {
+        "name": "Cynamon mielony",
+        "quantity": "1 x Szczypta",
+        "grams": 1
+      },
+      {
+        "name": "Wanilia ekstrakt",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      }
+    ],
+    "description": "Wszystkie składniki wrzuć do blendera. Mrożone owoce lekko rozmroź, jeśli są zbrylone. Zblenduj na gładką, kremową konsystencję. W razie potrzeby dolej wody.",
+    "type": "Śniadanie"
+  },
+  {
+    "name": "Croissant z szynką na wytrawnie",
+    "products": [
+      {
+        "name": "Rogal croissant z masłem",
+        "quantity": "2 x Sztuka",
+        "grams": 120
+      },
+      {
+        "name": "Serek śmietankowy",
+        "quantity": "2 x Łyżka",
+        "grams": 50
+      },
+      {
+        "name": "Szynka z kurczaka",
+        "quantity": "4 x Plaster",
+        "grams": 40
+      },
+      {
+        "name": "Ogórek świeży",
+        "quantity": "1 x Sztuka",
+        "grams": 150
+      },
+      {
+        "name": "Rukola",
+        "quantity": "1 x Porcja",
+        "grams": 40
+      }
+    ],
+    "description": "Rogale przekrój na pół. Posmaruj serkiem śmietankowym. Ułóż rukolę, szynkę i pokrojony ogórek.",
+    "type": "Śniadanie"
+  },
+  {
+    "name": "Serniczek japoński",
+    "products": [
+      {
+        "name": "Skyr waniliowy Fruvita",
+        "quantity": "1.5 x Opakowanie",
+        "grams": 225
+      },
+      {
+        "name": "Ciasteczka Lotus Biscoff",
+        "quantity": "8 x Sztuka",
+        "grams": 64
+      },
+      {
+        "name": "Krem Biscoff Lotus",
+        "quantity": "2 x Łyżeczka",
+        "grams": 20
+      },
+      {
+        "name": "Kakao gorzkie",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      },
+      {
+        "name": "Borówki amerykańskie świeże",
+        "quantity": "1 x Porcja",
+        "grams": 75
+      }
+    ],
+    "description": "Skyr waniliowy przełóż do miseczki i wyrównaj wierzch. Ciasteczka Lotus wbij pionowo w skyr. Na wierzchu rozprowadź krem Biscoff i posyp kakao. Przykryj i wstaw do lodówki na min. 2-3 h (najlepiej na noc). Przed podaniem udekoruj borówkami.",
+    "type": "Śniadanie"
+  },
+  {
+    "name": "Omlet ze szparagami i pomidorkami koktajlowymi",
+    "products": [
+      {
+        "name": "Jajko kurze całe",
+        "quantity": "2 x Sztuka",
+        "grams": 112
+      },
+      {
+        "name": "Mąka pszenna pełnoziarnista",
+        "quantity": "1 x Łyżka",
+        "grams": 15
+      },
+      {
+        "name": "Mleko 1,5%",
+        "quantity": "2 x Łyżka",
+        "grams": 30
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Ser mozzarella żółta",
+        "quantity": "1 x Plaster",
+        "grams": 15
+      },
+      {
+        "name": "Olej rzepakowy",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      },
+      {
+        "name": "Szparagi zielone",
+        "quantity": "5 x Sztuka",
+        "grams": 150
+      },
+      {
+        "name": "Pomidorki koktajlowe",
+        "quantity": "5 x Sztuka",
+        "grams": 100
+      },
+      {
+        "name": "Chleb żytni razowy",
+        "quantity": "1 x Kromka",
+        "grams": 30
+      },
+      {
+        "name": "Serek śmietankowy",
+        "quantity": "2 x Łyżeczka",
+        "grams": 20
+      },
+      {
+        "name": "Awokado",
+        "quantity": "0.5 x Sztuka",
+        "grams": 70
+      }
+    ],
+    "description": "Szparagi gotuj 2-3 min we wrzącej osolonej wodzie, przełóż do zimnej wody. Wymieszaj jajka, mąkę, mleko, sól, pieprz i starty ser. Na patelni rozgrzej olej, ułóż szparagi i połówki pomidorków, zalej masą jajeczną. Smaż pod przykryciem na małym ogniu. Podaj z chlebem posmarowanym serkiem i kawałkami awokado.",
+    "type": "Śniadanie"
+  },
+  {
+    "name": "Koktajl jagodowo bananowy",
+    "products": [
+      {
+        "name": "Jagody świeże lub mrożone",
+        "quantity": "1 x Porcja",
+        "grams": 200
+      },
+      {
+        "name": "Banan",
+        "quantity": "1.5 x Sztuka",
+        "grams": 180
+      },
+      {
+        "name": "Odżywka białkowa",
+        "quantity": "3 x Łyżka",
+        "grams": 30
+      },
+      {
+        "name": "Płatki migdałów",
+        "quantity": "1 x Porcja",
+        "grams": 35
+      },
+      {
+        "name": "Woda",
+        "quantity": "0.8 x Szklanka",
+        "grams": 200
+      }
+    ],
+    "description": "Wszystkie składniki zblenduj na gładką masę. W razie potrzeby dolej wody, aby uzyskać preferowaną konsystencję.",
+    "type": "Śniadanie"
+  },
+  {
+    "name": "Pasta z pstrąga wędzonego oraz szczypiorku z pieczywem",
+    "products": [
+      {
+        "name": "Chleb żytni razowy",
+        "quantity": "4 x Kromka",
+        "grams": 120
+      },
+      {
+        "name": "Ser twarogowy tłusty",
+        "quantity": "2 x Plaster",
+        "grams": 60
+      },
+      {
+        "name": "Pstrąg wędzony na zimno",
+        "quantity": "1 x Porcja",
+        "grams": 70
+      },
+      {
+        "name": "Ogórek świeży",
+        "quantity": "1 x Sztuka",
+        "grams": 150
+      },
+      {
+        "name": "Rzodkiewka",
+        "quantity": "4 x Sztuka",
+        "grams": 60
+      },
+      {
+        "name": "Rukola",
+        "quantity": "1 x Porcja",
+        "grams": 20
+      },
+      {
+        "name": "Szczypiorek siekany",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      }
+    ],
+    "description": "Pstrąga oberz z ości i podziel na kawałki. Posiekaj szczypiorek, dodaj ser twarogowy i wymieszaj. Dopraw solą i pieprzem. Pastę podaj z pieczywem oraz pokrojonymi warzywami skropionymi oliwą.",
+    "type": "Śniadanie"
+  },
+  {
+    "name": "Owsianka a la Mars",
+    "products": [
+      {
+        "name": "Płatki owsiane górskie",
+        "quantity": "4.5 x Łyżka",
+        "grams": 45
+      },
+      {
+        "name": "Mleko 1,5%",
+        "quantity": "0.5 x Szklanka",
+        "grams": 125
+      },
+      {
+        "name": "Miód",
+        "quantity": "1.5 x Łyżeczka",
+        "grams": 18
+      },
+      {
+        "name": "Masło orzechowe",
+        "quantity": "1.5 x Łyżeczka",
+        "grams": 15
+      },
+      {
+        "name": "Czekolada gorzka 70%",
+        "quantity": "1.5 x Kostka",
+        "grams": 15
+      },
+      {
+        "name": "Jogurt skyr",
+        "quantity": "1 x Opakowanie",
+        "grams": 150
+      },
+      {
+        "name": "Maliny świeże lub mrożone",
+        "quantity": "1 x Porcja",
+        "grams": 75
+      }
+    ],
+    "description": "Płatki ugotuj na mleku z połową miodu (7-10 min), lekko ostudź i wymieszaj ze skyrem. Masło orzechowe wymieszaj z resztą miodu. Czekoladę rozpuść w kąpieli wodnej lub mikrofali. W miseczce ułóż owsiankę, polej masłem orzechowym i czekoladą. Schłódź 20 min w lodówce, udekoruj malinami.",
+    "type": "Śniadanie"
+  },
+  {
+    "name": "Czekoladowa owsianka z borówkami",
+    "products": [
+      {
+        "name": "Płatki owsiane górskie",
+        "quantity": "5 x Łyżka",
+        "grams": 50
+      },
+      {
+        "name": "Nasiona chia",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Kakao gorzkie",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      },
+      {
+        "name": "Masło orzechowe",
+        "quantity": "1.5 x Łyżeczka",
+        "grams": 15
+      },
+      {
+        "name": "Jogurt skyr",
+        "quantity": "1.5 x Opakowanie",
+        "grams": 225
+      },
+      {
+        "name": "Mleko 1,5%",
+        "quantity": "0.5 x Szklanka",
+        "grams": 150
+      },
+      {
+        "name": "Czekolada gorzka 70%",
+        "quantity": "2 x Kostka",
+        "grams": 20
+      },
+      {
+        "name": "Erytrol",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Borówki amerykańskie, świeże lub mrożone",
+        "quantity": "1 x Porcja",
+        "grams": 50
+      }
+    ],
+    "description": "Do miseczki lub słoika dodaj płatki, nasiona chia, skyr, kakao, masło orzechowe i erytrol. Zalej mlekiem i wymieszaj. Posyp startą czekoladą. Odstaw na min. 20 min (najlepiej na noc do lodówki). Przed podaniem posyp borówkami.",
+    "type": "Śniadanie"
+  },
+  {
+    "name": "Jogurt skyr z domową granolą z orzechami nerkowca oraz jabłkiem",
+    "products": [
+      {
+        "name": "Płatki owsiane górskie",
+        "quantity": "5 x Łyżka",
+        "grams": 50
+      },
+      {
+        "name": "Orzechy nerkowca",
+        "quantity": "1 x Porcja",
+        "grams": 30
+      },
+      {
+        "name": "Czekolada gorzka 70%",
+        "quantity": "2 x Kostka",
+        "grams": 20
+      },
+      {
+        "name": "Syrop klonowy",
+        "quantity": "1 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Jabłko",
+        "quantity": "1 x Sztuka",
+        "grams": 150
+      },
+      {
+        "name": "Jogurt skyr",
+        "quantity": "1.5 x Opakowanie",
+        "grams": 225
+      },
+      {
+        "name": "Cynamon mielony",
+        "quantity": "1 x Szczypta",
+        "grams": 1
+      }
+    ],
+    "description": "Wymieszaj płatki, pokruszone orzechy nerkowca, syrop klonowy i cynamon. Piecz na papierze w 180°C przez ok. 10 min (lub usmaż na suchej patelni) do zezłocenia, ostudź i pokrusz. Do miski nałóż skyr, granolę, posiekaną czekoladę i pokrojone jabłko.",
+    "type": "Śniadanie"
+  },
+  {
+    "name": "Kanapki z pastą z łososia i serkiem kanapkowym",
+    "products": [
+      {
+        "name": "Chleb żytni razowy",
+        "quantity": "3 x Kromka",
+        "grams": 90
+      },
+      {
+        "name": "Serek śmietankowy",
+        "quantity": "1.5 x Łyżka",
+        "grams": 40
+      },
+      {
+        "name": "Jajko kurze całe",
+        "quantity": "1 x Sztuka",
+        "grams": 56
+      },
+      {
+        "name": "Awokado",
+        "quantity": "1 x Porcja",
+        "grams": 50
+      },
+      {
+        "name": "Sól",
+        "quantity": "2 x Szczypta",
+        "grams": 0.5
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "2 x Szczypta",
+        "grams": 0.5
+      },
+      {
+        "name": "Łosoś świeży (bez skóry)",
+        "quantity": "1 x Porcja",
+        "grams": 100
+      },
+      {
+        "name": "Bazylia suszona",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 2
+      },
+      {
+        "name": "Rukola",
+        "quantity": "1 x Porcja",
+        "grams": 75
+      },
+      {
+        "name": "Pomidorki koktajlowe",
+        "quantity": "5 x Sztuka",
+        "grams": 100
+      }
+    ],
+    "description": "Jajko ugotuj na twardo (8 min). Łososia przypraw solą, pieprzem i bazylią, piecz w 200°C przez 10-15 min. W misce rozgnieć jajko, awokado i serek, dodaj kawałki ryby, sól i pieprz, wymieszaj. Pieczywo posmaruj serkiem, ułóż rukolę, pastę i połówki pomidorków.",
+    "type": "Śniadanie"
+  },
+  {
+    "name": "Lunchbox Kanapki z sezamowym omletem",
+    "products": [
+      {
+        "name": "Jajko kurze całe",
+        "quantity": "2 x Sztuka",
+        "grams": 112
+      },
+      {
+        "name": "Sos sojowy",
+        "quantity": "0.5 x Łyżka",
+        "grams": 5
+      },
+      {
+        "name": "Olej sezamowy",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Bułka grahamka",
+        "quantity": "1 x Sztuka",
+        "grams": 70
+      },
+      {
+        "name": "Majonez",
+        "quantity": "1 x Łyżka",
+        "grams": 25
+      },
+      {
+        "name": "Szpinak",
+        "quantity": "1 x Porcja",
+        "grams": 25
+      },
+      {
+        "name": "Winogrona",
+        "quantity": "1 x Porcja",
+        "grams": 150
+      },
+      {
+        "name": "Ogórek świeży",
+        "quantity": "1 x Sztuka",
+        "grams": 150
+      }
+    ],
+    "description": "Roztrzep jajka z sosem sojowym, olejem sezamowym i pieprzem. Usmaż na patelni na małym ogniu do ścięcia, zwiń w rulon i pokrój. Bułkę przekrój, posmaruj majonezem, ułóż szpinak i kawałki omleta. W lunchboxie ułóż kanapkę, winogrona i ogórka.",
+    "type": "Śniadanie"
+  },
+  {
+    "name": "Tosty z zielonym pesto, mozzarellą oraz pomidorem",
+    "products": [
+      {
+        "name": "Chleb żytni razowy",
+        "quantity": "4 x Kromka",
+        "grams": 120
+      },
+      {
+        "name": "Ser mozzarella kulka",
+        "quantity": "1 x Sztuka",
+        "grams": 120
+      },
+      {
+        "name": "Pomidor",
+        "quantity": "1 x Sztuka",
+        "grams": 160
+      },
+      {
+        "name": "Szpinak",
+        "quantity": "1 x Porcja",
+        "grams": 25
+      },
+      {
+        "name": "Pesto zielone",
+        "quantity": "3 x Łyżeczka",
+        "grams": 15
+      }
+    ],
+    "description": "Mozzarellę pokrój w plastry, pomidora w kawałki. Pieczywo posmaruj pesto. Na połowie kromek ułóż mozzarellę i szpinak, przykryj resztą pieczywa. Smaż tosty na suchej patelni po 2-3 min z każdej strony, dociskając, aż ser się roztopi. Podaj z pomidorem.",
+    "type": "Śniadanie"
+  },
+  {
+    "name": "Owsianka z kawałkami kiwi oraz borówkami",
+    "products": [
+      {
+        "name": "Płatki owsiane górskie",
+        "quantity": "6 x Łyżka",
+        "grams": 60
+      },
+      {
+        "name": "Jogurt skyr",
+        "quantity": "1.5 x Opakowanie",
+        "grams": 225
+      },
+      {
+        "name": "Kiwi",
+        "quantity": "1 x Sztuka",
+        "grams": 75
+      },
+      {
+        "name": "Borówki amerykańskie, świeże lub mrożone",
+        "quantity": "1 x Porcja",
+        "grams": 150
+      },
+      {
+        "name": "Migdały",
+        "quantity": "1 x Porcja",
+        "grams": 35
+      },
+      {
+        "name": "Erytrol",
+        "quantity": "3 x Łyżeczka",
+        "grams": 15
+      }
+    ],
+    "description": "Płatki ugotuj w 250 ml wody do miękkości (lub zalej gorącą wodą i odstaw). Wymieszaj z jogurtem skyr, borówkami i erytrolem. Posyp migdałami i kawałkami kiwi. Jedz od razu po przygotowaniu.",
+    "type": "Śniadanie"
+  },
+  {
+    "name": "Pieczony łosoś teriyaki z ryżem i surówką z marchwi oraz białej rzodkwi",
+    "products": [
+      {
+        "name": "Łosoś świeży (bez skóry)",
+        "quantity": "1 x Porcja",
+        "grams": 175
+      },
+      {
+        "name": "Ryż basmati",
+        "quantity": "1 x Porcja",
+        "grams": 60
+      },
+      {
+        "name": "Marchew",
+        "quantity": "1 x Sztuka",
+        "grams": 80
+      },
+      {
+        "name": "Biała rzodkiew",
+        "quantity": "1 x Porcja",
+        "grams": 110
+      },
+      {
+        "name": "Ocet ryżowy",
+        "quantity": "1.1 x Łyżka",
+        "grams": 10
+      },
+      {
+        "name": "Sezam nasiona",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      },
+      {
+        "name": "Sos rybny",
+        "quantity": "1 x Łyżka",
+        "grams": 10
+      },
+      {
+        "name": "Ksylitol",
+        "quantity": "0.5 x Łyżka",
+        "grams": 7
+      },
+      {
+        "name": "Sos sojowy",
+        "quantity": "1 x Łyżka",
+        "grams": 10
+      },
+      {
+        "name": "Miód",
+        "quantity": "1 x Łyżeczka",
+        "grams": 12
+      },
+      {
+        "name": "Imbir",
+        "quantity": "1 x Plaster",
+        "grams": 5
+      }
+    ],
+    "description": "Ugotuj ryż wg instrukcji. Wymieszaj sos sojowy, miód i imbir na sos teriyaki, zamarynuj łososia. Piecz łososia w 190°C (termoobieg) przez 12-15 min. Marchew i białą rzodkiew zetrzyj na tarce, dopraw octem, sosem rybnym, ksylitolem i sezamem. Podaj łososia z ryżem i surówką.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Pinsa z sosem pomidorowym, mozzarellą i rukolą",
+    "products": [
+      {
+        "name": "Pinsa",
+        "quantity": "1 x Sztuka",
+        "grams": 220
+      },
+      {
+        "name": "Sos do pizzy Mutti",
+        "quantity": "1 x Porcja",
+        "grams": 125
+      },
+      {
+        "name": "Ser mozzarella kulka light",
+        "quantity": "0.5 x Opakowanie",
+        "grams": 60
+      },
+      {
+        "name": "Rukola",
+        "quantity": "1 x Porcja",
+        "grams": 50
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 2.5
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Oregano suszone",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      },
+      {
+        "name": "Bazylia suszona",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 2
+      }
+    ],
+    "description": "Nagrzej piekarnik do 220°C (góra-dół). Blachę wyłóż papierem i posmaruj oliwą. Na cieście pinsy rozłóż sos pomidorowy, dopraw solą, pieprzem, oregano i bazylią. Ułóż pokrojoną mozzarellę. Piecz 10-12 min aż ser się roztopi. Po wyjęciu posyp rukolą.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Lekka sałatka gyros z wieprzowiną",
+    "products": [
+      {
+        "name": "Wieprzowina, karkówka",
+        "quantity": "1 x Porcja",
+        "grams": 150
+      },
+      {
+        "name": "Jogurt grecki",
+        "quantity": "2 x Łyżka",
+        "grams": 40
+      },
+      {
+        "name": "Ogórek świeży",
+        "quantity": "0.5 x Sztuka",
+        "grams": 75
+      },
+      {
+        "name": "Czosnek świeży",
+        "quantity": "1 x Ząbek",
+        "grams": 6
+      },
+      {
+        "name": "Cebula",
+        "quantity": "0.5 x Sztuka",
+        "grams": 40
+      },
+      {
+        "name": "Papryka czerwona",
+        "quantity": "0.5 x Sztuka",
+        "grams": 85
+      },
+      {
+        "name": "Pomidorki koktajlowe",
+        "quantity": "5 x Sztuka",
+        "grams": 100
+      },
+      {
+        "name": "Koper posiekany",
+        "quantity": "2 x Łyżeczka",
+        "grams": 8
+      },
+      {
+        "name": "Sok z cytryny",
+        "quantity": "1 x Łyżka",
+        "grams": 6
+      },
+      {
+        "name": "Przyprawa gyros",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Kasza bulgur",
+        "quantity": "1 x Porcja",
+        "grams": 75
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      }
+    ],
+    "description": "Ugotuj kaszę bulgur wg instrukcji. Karkówkę pokrój w paski, przypraw przyprawą gyros, odstaw na 15 min, piecz w 200°C z termoobiegiem min. 30 min. Wymieszaj jogurt grecki, starty ogórek, czosnek, sól, pieprz i sok z cytryny. Kaszę połącz z pokrojonymi warzywami i koperkiem, ułóż na talerzu z mięsem i sosem.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Gnocchi ze szpinakiem oraz serem typu feta",
+    "products": [
+      {
+        "name": "Gnocchi",
+        "quantity": "1 x Porcja",
+        "grams": 300
+      },
+      {
+        "name": "Szpinak",
+        "quantity": "1 x Porcja",
+        "grams": 100
+      },
+      {
+        "name": "Ser typu Feta",
+        "quantity": "3 x Plaster",
+        "grams": 75
+      },
+      {
+        "name": "Czosnek świeży",
+        "quantity": "1 x Ząbek",
+        "grams": 6
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Sok z cytryny",
+        "quantity": "1 x Łyżka",
+        "grams": 6
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Oregano suszone",
+        "quantity": "1 x Łyżeczka",
+        "grams": 3
+      },
+      {
+        "name": "Natka pietruszki posiekana",
+        "quantity": "3 x Łyżeczka",
+        "grams": 15
+      }
+    ],
+    "description": "Na patelni rozgrzej oliwę, smaż gnocchi (bez gotowania w wodzie) 5-7 min do zrumienienia. Dodaj czosnek i oregano na 30 sek, dorzuć szpinak i podgrzewaj 2-3 min pod przykryciem. Skrop sokiem z cytryny, dopraw solą i pieprzem. Rozkrusz fetę nad patelnią, delikatnie wymieszaj. Posyp natką pietruszki.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Łosoś w sosie musztardowo-miodowym z ryżem oraz brokułem",
+    "products": [
+      {
+        "name": "Łosoś świeży (bez skóry)",
+        "quantity": "1 x Porcja",
+        "grams": 175
+      },
+      {
+        "name": "Ryż basmati",
+        "quantity": "1 x Porcja",
+        "grams": 50
+      },
+      {
+        "name": "Brokuł, świeży lub mrożony",
+        "quantity": "1 x Porcja",
+        "grams": 150
+      },
+      {
+        "name": "Miód",
+        "quantity": "1 x Łyżeczka",
+        "grams": 12
+      },
+      {
+        "name": "Musztarda",
+        "quantity": "1 x Porcja",
+        "grams": 10
+      },
+      {
+        "name": "Sok z cytryny",
+        "quantity": "2 x Łyżka",
+        "grams": 12
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Olej rzepakowy",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      }
+    ],
+    "description": "Ugotuj ryż wg instrukcji. Brokuł podziel na różyczki i gotuj 5-7 min w osolonej wodzie. Wymieszaj miód, musztardę, sól, pieprz, sok z cytryny i olej. Obtocz łososia w marynacie. Piecz na papierze w 190°C (góra-dół) przez 12-15 min. Podaj z ryżem i brokułem.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Pad thai z krewetkami",
+    "products": [
+      {
+        "name": "Makaron ryżowy",
+        "quantity": "1 x Porcja",
+        "grams": 70
+      },
+      {
+        "name": "Krewetki",
+        "quantity": "1 x Porcja",
+        "grams": 125
+      },
+      {
+        "name": "Jajko kurze całe",
+        "quantity": "1 x Sztuka",
+        "grams": 56
+      },
+      {
+        "name": "Fasola mung, kiełki",
+        "quantity": "1 x Porcja",
+        "grams": 50
+      },
+      {
+        "name": "Cebula",
+        "quantity": "1 x Sztuka",
+        "grams": 80
+      },
+      {
+        "name": "Orzechy arachidowe",
+        "quantity": "1 x Porcja",
+        "grams": 20
+      },
+      {
+        "name": "Olej rzepakowy",
+        "quantity": "1 x Łyżka",
+        "grams": 10
+      },
+      {
+        "name": "Kolendra świeża",
+        "quantity": "0.5 x Garść",
+        "grams": 2
+      },
+      {
+        "name": "Sos rybny",
+        "quantity": "2 x Łyżka",
+        "grams": 20
+      },
+      {
+        "name": "Pasta miso",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 5
+      },
+      {
+        "name": "Sok z limonki",
+        "quantity": "2 x Łyżka",
+        "grams": 12
+      },
+      {
+        "name": "Erytrol",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Woda",
+        "quantity": "2 x Łyżka",
+        "grams": 30
+      },
+      {
+        "name": "Sos sriracha Asia Flavours",
+        "quantity": "0.5 x Łyżka",
+        "grams": 5
+      }
+    ],
+    "description": "Ugotuj makaron wg instrukcji. Wymieszaj składniki sosu. Usmaż jajko jak omlet, odłóż. Podsmaż krewetki 5-7 min, odłóż. Na tej samej patelni zeszkli cebulę, dodaj połowę sosu i makaron, smaż 1-2 min. Dodaj krewetki, kiełki, omlet, orzechy i resztę sosu, smaż 2-3 min. Posyp kolendrą.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Pieczony kurczak z puree z batata",
+    "products": [
+      {
+        "name": "Mięso z piersi kurczaka",
+        "quantity": "1 x Porcja",
+        "grams": 175
+      },
+      {
+        "name": "Zioła prowansalskie",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      },
+      {
+        "name": "Sól",
+        "quantity": "2 x Szczypta",
+        "grams": 0.5
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "2 x Szczypta",
+        "grams": 0.5
+      },
+      {
+        "name": "Batat",
+        "quantity": "1 x Sztuka",
+        "grams": 200
+      },
+      {
+        "name": "Jogurt naturalny 2%",
+        "quantity": "3 x Łyżka",
+        "grams": 60
+      },
+      {
+        "name": "Sok z cytryny",
+        "quantity": "3 x Łyżka",
+        "grams": 18
+      },
+      {
+        "name": "Masło extra",
+        "quantity": "5 x Łyżeczka",
+        "grams": 25
+      },
+      {
+        "name": "Marchew",
+        "quantity": "2 x Sztuka",
+        "grams": 160
+      },
+      {
+        "name": "Jabłko",
+        "quantity": "1 x Sztuka",
+        "grams": 150
+      }
+    ],
+    "description": "Nagrzej piekarnik do 180°C. Kurczaka przypraw ziołami prowansalskimi, solą i pieprzem, włóż do rękawa i piecz 20-30 min. Batata obierz, pokrój i gotuj 15 min, odlej wodę, dodaj masło, sól, sok z cytryny i jogurt, zblenduj na gładką masę. Marchew i jabłko zetrzyj na tarce, skrop sokiem z cytryny. Podaj mięso z puree i surówką.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Zupa krem z kukurydzy z kurczakiem",
+    "products": [
+      {
+        "name": "Kukurydza konserwowa",
+        "quantity": "9 x Łyżka",
+        "grams": 180
+      },
+      {
+        "name": "Batat",
+        "quantity": "1 x Porcja",
+        "grams": 195
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "4 x Łyżeczka",
+        "grams": 20
+      },
+      {
+        "name": "Mięso z piersi kurczaka",
+        "quantity": "1 x Porcja",
+        "grams": 150
+      },
+      {
+        "name": "Bulion warzywny (po rozrobieniu ze słoiczka)",
+        "quantity": "1.5 x Szklanka",
+        "grams": 375
+      },
+      {
+        "name": "Czosnek granulowany",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      },
+      {
+        "name": "Imbir",
+        "quantity": "0.5 x Plaster",
+        "grams": 2.5
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Szczypiorek siekany",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 2.5
+      }
+    ],
+    "description": "Batata pokrój w kostkę, kurczaka też. Na oliwie podsmaż mięso do zrumienienia. Dodaj batata, kukurydzę, imbir i czosnek. Zalej bulionem, dopraw solą i pieprzem, gotuj 10-15 min pod przykryciem. Połowę zupy (bez kurczaka) zblenduj na krem i wlej z powrotem. Posyp szczypiorkiem.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Tatar wołowy",
+    "products": [
+      {
+        "name": "Wołowina, polędwica",
+        "quantity": "1 x Porcja",
+        "grams": 175
+      },
+      {
+        "name": "Żółtko jaja",
+        "quantity": "1 x Sztuka",
+        "grams": 20
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "1.5 x Łyżka",
+        "grams": 15
+      },
+      {
+        "name": "Woda",
+        "quantity": "2 x Łyżka",
+        "grams": 30
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Cebula",
+        "quantity": "0.5 x Sztuka",
+        "grams": 40
+      },
+      {
+        "name": "Ogórek kiszony",
+        "quantity": "3 x Sztuka",
+        "grams": 150
+      },
+      {
+        "name": "Chleb żytni razowy",
+        "quantity": "4 x Kromka",
+        "grams": 120
+      }
+    ],
+    "description": "Mięso posiekaj lub zmiel. Dodaj oliwę, żółtko, sól, pieprz i wodę. Dokładnie wyrób, dodając wodę aż tatar będzie delikatnie kleisty (składniki muszą być zimne). Wyłóż na talerz. Obok podaj posiekaną cebulę, ogórki kiszone i pieczywo.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Tortilla pełnoziarnista z sałatką po grecku i serem halloumi",
+    "products": [
+      {
+        "name": "Ser halloumi",
+        "quantity": "5 x Plaster",
+        "grams": 125
+      },
+      {
+        "name": "Ogórek świeży",
+        "quantity": "0.5 x Sztuka",
+        "grams": 75
+      },
+      {
+        "name": "Cebula",
+        "quantity": "0.25 x Sztuka",
+        "grams": 20
+      },
+      {
+        "name": "Pomidor",
+        "quantity": "3 x Plaster",
+        "grams": 60
+      },
+      {
+        "name": "Oliwki zielone",
+        "quantity": "6 x Sztuka",
+        "grams": 18
+      },
+      {
+        "name": "Tortilla pełnoziarnista",
+        "quantity": "1 x Sztuka",
+        "grams": 60
+      },
+      {
+        "name": "Oregano suszone",
+        "quantity": "1 x Łyżeczka",
+        "grams": 3
+      },
+      {
+        "name": "Miks sałat",
+        "quantity": "1 x Porcja",
+        "grams": 10
+      },
+      {
+        "name": "Serek śmietankowy",
+        "quantity": "1 x Łyżka",
+        "grams": 25
+      }
+    ],
+    "description": "Warzywa pokrój na kawałki. Halloumi pokrój w plastry i grilluj na suchej patelni. Serek śmietankowy dopraw oregano. Tortillę posmaruj serkiem, ułóż sałatę, warzywa i ser, posyp oregano i zawiń.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Qurrito",
+    "products": [
+      {
+        "name": "Tortilla pełnoziarnista",
+        "quantity": "1 x Sztuka",
+        "grams": 60
+      },
+      {
+        "name": "Mięso z piersi kurczaka",
+        "quantity": "1 x Porcja",
+        "grams": 150
+      },
+      {
+        "name": "Ser mozzarella żółta",
+        "quantity": "3 x Plaster",
+        "grams": 45
+      },
+      {
+        "name": "Papryka słodka",
+        "quantity": "1 x Łyżeczka",
+        "grams": 3
+      },
+      {
+        "name": "Sos barbecue",
+        "quantity": "1.5 x Łyżeczka",
+        "grams": 15
+      },
+      {
+        "name": "Ketchup",
+        "quantity": "1 x Łyżka",
+        "grams": 20
+      },
+      {
+        "name": "Jajko kurze całe",
+        "quantity": "1 x Sztuka",
+        "grams": 56
+      },
+      {
+        "name": "Płatki kukurydziane",
+        "quantity": "5 x Łyżka",
+        "grams": 20
+      },
+      {
+        "name": "Mleko 1,5%",
+        "quantity": "1 x Łyżka",
+        "grams": 15
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Miks sałat",
+        "quantity": "1 x Porcja",
+        "grams": 20
+      },
+      {
+        "name": "Cebula",
+        "quantity": "1 x Porcja",
+        "grams": 20
+      },
+      {
+        "name": "Pomidor",
+        "quantity": "2 x Plaster",
+        "grams": 40
+      }
+    ],
+    "description": "Nagrzej piekarnik do 200°C. Wymieszaj jajko z mlekiem, solą i papryką. Rozkrusz płatki kukurydziane. Kurczaka pokrój, obtocz w jajku i płatkach, piecz 20 min. Wymieszaj sos BBQ z ketchupem. Połowę tortilli posmaruj sosem, ułóż mięso, sałatę, cebulę, pomidora i ser. Złóż na pół i przypiecz na patelni z obu stron.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Kremowe gnocchi z łososiem",
+    "products": [
+      {
+        "name": "Gnocchi",
+        "quantity": "1 x Porcja",
+        "grams": 200
+      },
+      {
+        "name": "Łosoś świeży (bez skóry)",
+        "quantity": "1 x Porcja",
+        "grams": 100
+      },
+      {
+        "name": "Śmietana 18%",
+        "quantity": "3 x Łyżka",
+        "grams": 75
+      },
+      {
+        "name": "Szpinak",
+        "quantity": "1 x Porcja",
+        "grams": 75
+      },
+      {
+        "name": "Czosnek świeży",
+        "quantity": "1 x Ząbek",
+        "grams": 6
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      },
+      {
+        "name": "Sok z cytryny",
+        "quantity": "0.5 x Łyżka",
+        "grams": 3
+      },
+      {
+        "name": "Skórka z cytryny",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      },
+      {
+        "name": "Kapary",
+        "quantity": "0.5 x Łyżka",
+        "grams": 5
+      },
+      {
+        "name": "Koper posiekany",
+        "quantity": "1 x Łyżeczka",
+        "grams": 4
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      }
+    ],
+    "description": "Łososia pokrój w kostkę, dopraw solą i pieprzem. Na oliwie smaż gnocchi 5-6 min do zrumienienia, odłóż. Podsmaż łososia 3 min, dodaj czosnek i kapary na 30 sek. Wlej śmietanę, dodaj szpinak, gotuj 2-3 min. Dodaj sok i skórkę z cytryny, wrzuć gnocchi, mieszaj 1 min. Posyp koperkiem.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Pinsa z cukinią oraz burratą",
+    "products": [
+      {
+        "name": "Pinsa",
+        "quantity": "0.5 x Sztuka",
+        "grams": 115
+      },
+      {
+        "name": "Pomidory z puszki",
+        "quantity": "0.5 x Opakowanie",
+        "grams": 115
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Bazylia suszona",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 2
+      },
+      {
+        "name": "Cukinia",
+        "quantity": "1 x Porcja",
+        "grams": 50
+      },
+      {
+        "name": "Szynka parmeńska",
+        "quantity": "4 x Plaster",
+        "grams": 60
+      },
+      {
+        "name": "Burrata",
+        "quantity": "6 x Plaster",
+        "grams": 60
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      }
+    ],
+    "description": "Nagrzej piekarnik do 250°C (góra-dół). Cukinię pokrój cienko na mandolinie. Pinsę posmaruj passatą, dopraw przyprawami, ułóż plasterki cukinii. Zapiekaj ok. 5 min. Wysuń blachę, ułóż szynkę parmeńską i burratę, skrop oliwą. Zapiekaj jeszcze ok. 1 min do rozpuszczenia sera.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Makaron z kurczakiem w sosie szpinakowym z serem gorgonzola",
+    "products": [
+      {
+        "name": "Makaron pełnoziarnisty",
+        "quantity": "1 x Porcja",
+        "grams": 70
+      },
+      {
+        "name": "Mięso z piersi kurczaka",
+        "quantity": "1 x Porcja",
+        "grams": 125
+      },
+      {
+        "name": "Szpinak",
+        "quantity": "1 x Porcja",
+        "grams": 50
+      },
+      {
+        "name": "Ser gorgonzola",
+        "quantity": "1 x Porcja",
+        "grams": 40
+      },
+      {
+        "name": "Śmietana 12%",
+        "quantity": "2 x Łyżka",
+        "grams": 36
+      },
+      {
+        "name": "Pomidory suszone w oleju (odsączone)",
+        "quantity": "2 x Sztuka",
+        "grams": 40
+      },
+      {
+        "name": "Czosnek świeży",
+        "quantity": "2 x Ząbek",
+        "grams": 12
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Bulion warzywny (po rozrobieniu ze słoiczka)",
+        "quantity": "0.5 x Szklanka",
+        "grams": 125
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 2.5
+      }
+    ],
+    "description": "Ugotuj makaron wg instrukcji. Kurczaka pokrój w kostkę, podsmaż na oliwie z czosnkiem, dopraw solą i pieprzem (10-15 min). Wlej bulion, dodaj szpinak i suszone pomidory, duś aż szpinak zwiędnie. Zahartuj śmietanę kilkoma łyżkami bulionu z patelni, wlej na patelnię. Wyłącz ogień, dodaj gorgonzolę i mieszaj do rozpuszczenia. Dodaj makaron i wymieszaj.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Sałatka z makaronem ryżowym i krewetkami",
+    "products": [
+      {
+        "name": "Makaron ryżowy",
+        "quantity": "1 x Porcja",
+        "grams": 60
+      },
+      {
+        "name": "Krewetki",
+        "quantity": "1 x Porcja",
+        "grams": 150
+      },
+      {
+        "name": "Marchew",
+        "quantity": "1 x Sztuka",
+        "grams": 80
+      },
+      {
+        "name": "Ogórek świeży",
+        "quantity": "0.5 x Sztuka",
+        "grams": 75
+      },
+      {
+        "name": "Kolendra świeża",
+        "quantity": "1 x Garść",
+        "grams": 4
+      },
+      {
+        "name": "Awokado",
+        "quantity": "1 x Porcja",
+        "grams": 100
+      },
+      {
+        "name": "Mango świeże lub mrożone",
+        "quantity": "1 x Porcja",
+        "grams": 100
+      },
+      {
+        "name": "Jogurt naturalny 2%",
+        "quantity": "2 x Łyżka",
+        "grams": 40
+      },
+      {
+        "name": "Sok z cytryny",
+        "quantity": "1 x Łyżka",
+        "grams": 6
+      },
+      {
+        "name": "Miód",
+        "quantity": "1 x Łyżeczka",
+        "grams": 12
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      }
+    ],
+    "description": "Ugotuj makaron wg instrukcji. Krewetki gotuj na parze lub we wrzątku 1-2 min, ostudź. Marchew zetrzyj na tarce, ogórka pokrój w paseczki, awokado w plasterki. Zblenduj mango z jogurtem, sokiem z cytryny i miodem na sos. Wymieszaj makaron, krewetki, warzywa i kolendrę, polej sosem.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Cytrynowy makaron z krewetkami i cukinią",
+    "products": [
+      {
+        "name": "Makaron spaghetti pełnoziarnisty",
+        "quantity": "1 x Porcja",
+        "grams": 100
+      },
+      {
+        "name": "Cukinia",
+        "quantity": "1 x Sztuka",
+        "grams": 200
+      },
+      {
+        "name": "Krewetki",
+        "quantity": "1 x Porcja",
+        "grams": 125
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "2 x Łyżka",
+        "grams": 20
+      },
+      {
+        "name": "Sok z cytryny",
+        "quantity": "3 x Łyżka",
+        "grams": 18
+      },
+      {
+        "name": "Czosnek świeży",
+        "quantity": "1 x Ząbek",
+        "grams": 6
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Natka pietruszki posiekana",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      }
+    ],
+    "description": "Ugotuj makaron wg instrukcji, zachowaj ok. 100 ml wody. Krewetki zamarynuj w oliwie, soku z cytryny, czosnku, soli i pieprzu. Usmaż krewetki na złoty kolor, odłóż. Na tej samej patelni podsmaż cukinię 3-4 min. Wymieszaj makaron z cukinią i krewetkami, dodaj wodę z makaronu i podsmaż chwilę. Posyp natką pietruszki.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Zapiekany makaron ze szpinakiem oraz łososiem",
+    "products": [
+      {
+        "name": "Makaron pełnoziarnisty",
+        "quantity": "1 x Porcja",
+        "grams": 70
+      },
+      {
+        "name": "Szpinak",
+        "quantity": "1 x Porcja",
+        "grams": 75
+      },
+      {
+        "name": "Czosnek świeży",
+        "quantity": "1 x Ząbek",
+        "grams": 6
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Pomidor",
+        "quantity": "1.5 x Sztuka",
+        "grams": 240
+      },
+      {
+        "name": "Łosoś wędzony na zimno",
+        "quantity": "1 x Porcja",
+        "grams": 100
+      },
+      {
+        "name": "Ser mozzarella żółta",
+        "quantity": "2 x Plaster",
+        "grams": 30
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Czosnek granulowany",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      },
+      {
+        "name": "Bazylia suszona",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 2
+      },
+      {
+        "name": "Oregano suszone",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      }
+    ],
+    "description": "Ugotuj makaron al dente, przełóż do naczynia żaroodpornego. Nagrzej piekarnik do 180°C. Pomidora sparz, obierz i pokrój w kostkę. Na oliwie podsmaż czosnek i szpinak aż zwiędnie, przełóż do makaronu. Dodaj pomidora i kawałki łososia, przypraw solą, pieprzem, czosnkiem, bazylią i oregano. Posyp serem, zapiekaj 25-30 min.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Makaron z łososiem i szpinakiem",
+    "products": [
+      {
+        "name": "Makaron pełnoziarnisty",
+        "quantity": "1 x Porcja",
+        "grams": 70
+      },
+      {
+        "name": "Serek śmietankowy",
+        "quantity": "3 x Łyżka",
+        "grams": 75
+      },
+      {
+        "name": "Łosoś wędzony na zimno",
+        "quantity": "1 x Porcja",
+        "grams": 100
+      },
+      {
+        "name": "Sok z cytryny",
+        "quantity": "4 x Łyżka",
+        "grams": 24
+      },
+      {
+        "name": "Szpinak",
+        "quantity": "1 x Porcja",
+        "grams": 75
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      },
+      {
+        "name": "Sól",
+        "quantity": "2 x Szczypta",
+        "grams": 0.5
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "2 x Szczypta",
+        "grams": 0.5
+      },
+      {
+        "name": "Czosnek świeży",
+        "quantity": "2 x Ząbek",
+        "grams": 12
+      },
+      {
+        "name": "Pomidorki koktajlowe",
+        "quantity": "6 x Sztuka",
+        "grams": 120
+      }
+    ],
+    "description": "Ugotuj makaron wg instrukcji, zachowaj pół szklanki wody. Na oliwie podsmaż czosnek 2 min, dodaj szpinak i łososia, smaż 3 min, wrzuć makaron. Wymieszaj serek z wodą z makaronu i sokiem z cytryny, rozprowadź po patelni, smaż 2-3 min na małym ogniu. Dopraw solą i pieprzem, dodaj pokrojone pomidorki.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Zapiekanka makaronowa z fasolką szparagową",
+    "products": [
+      {
+        "name": "Makaron pełnoziarnisty",
+        "quantity": "1 x Porcja",
+        "grams": 140
+      },
+      {
+        "name": "Mięso z piersi kurczaka",
+        "quantity": "1 x Porcja",
+        "grams": 125
+      },
+      {
+        "name": "Fasola szparagowa, świeża lub mrożona",
+        "quantity": "1 x Porcja",
+        "grams": 300
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "1 x Łyżka",
+        "grams": 10
+      },
+      {
+        "name": "Cebula",
+        "quantity": "1 x Sztuka",
+        "grams": 80
+      },
+      {
+        "name": "Czosnek świeży",
+        "quantity": "2 x Ząbek",
+        "grams": 12
+      },
+      {
+        "name": "Mąka pszenna typ 500",
+        "quantity": "3 x Łyżka",
+        "grams": 36
+      },
+      {
+        "name": "Bulion warzywny (po rozrobieniu ze słoiczka)",
+        "quantity": "1 x Szklanka",
+        "grams": 250
+      },
+      {
+        "name": "Mleko 1,5%",
+        "quantity": "1 x Szklanka",
+        "grams": 250
+      },
+      {
+        "name": "Koper posiekany",
+        "quantity": "4 x Łyżeczka",
+        "grams": 16
+      },
+      {
+        "name": "Pesto czerwone",
+        "quantity": "5 x Łyżeczka",
+        "grams": 25
+      },
+      {
+        "name": "Parmezan starty",
+        "quantity": "4 x Łyżka",
+        "grams": 40
+      },
+      {
+        "name": "Sól",
+        "quantity": "2 x Szczypta",
+        "grams": 0.5
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "2 x Szczypta",
+        "grams": 0.5
+      },
+      {
+        "name": "Papryka słodka",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      }
+    ],
+    "description": "Ugotuj makaron z fasolką szparagową (dodaj ją 3-4 min przed końcem). Nagrzej piekarnik do 200°C. Na oliwie podsmaż kurczaka w kostkę 5-7 min, odłóż. Na patelni zeszkli cebulę z czosnkiem, dodaj przyprawy i mąkę, smaż minutę. Wlej bulion i mleko, gotuj do zgęstnienia, dodaj koperek. Makaron wymieszaj z pesto, przełóż do naczynia żaroodpornego z mięsem i fasolką. Zalej sosem, posyp parmezanem, piecz 15 min. Przepis na 2 porcje.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Makaron z wędzonym łososiem, szpinakiem i sosem",
+    "products": [
+      {
+        "name": "Makaron pełnoziarnisty",
+        "quantity": "1 x Porcja",
+        "grams": 70
+      },
+      {
+        "name": "Łosoś wędzony na ciepło",
+        "quantity": "1 x Porcja",
+        "grams": 100
+      },
+      {
+        "name": "Szpinak",
+        "quantity": "1 x Porcja",
+        "grams": 75
+      },
+      {
+        "name": "Brokuł, świeży lub mrożony",
+        "quantity": "1 x Porcja",
+        "grams": 200
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      },
+      {
+        "name": "Czosnek świeży",
+        "quantity": "1 x Ząbek",
+        "grams": 6
+      },
+      {
+        "name": "Śmietanka 12%",
+        "quantity": "4 x Łyżka",
+        "grams": 72
+      },
+      {
+        "name": "Sok z cytryny",
+        "quantity": "1 x Łyżka",
+        "grams": 6
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Gałka muszkatołowa",
+        "quantity": "1 x Szczypta",
+        "grams": 0.3
+      },
+      {
+        "name": "Sezam nasiona",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      }
+    ],
+    "description": "Ugotuj makaron wg instrukcji, zachowaj 0,5 szklanki wody. Brokuł gotuj 3-4 min. Na oliwie podsmaż czosnek 30 sek, dodaj brokuł na 3 min, potem szpinak na 2-3 min. Wlej śmietankę, dopraw solą, pieprzem i gałką muszkatołową, gotuj 3-4 min. Dodaj makaron, wymieszaj. Na koniec dodaj łososia w kawałkach, podgrzej 1 min. Skrop sokiem z cytryny, posyp sezamem.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Makaron ze szparagami, kurczakiem i pesto bazyliowym",
+    "products": [
+      {
+        "name": "Mięso z piersi kurczaka",
+        "quantity": "1 x Porcja",
+        "grams": 150
+      },
+      {
+        "name": "Makaron pełnoziarnisty",
+        "quantity": "1 x Porcja",
+        "grams": 80
+      },
+      {
+        "name": "Szparagi białe",
+        "quantity": "7 x Sztuka",
+        "grams": 210
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Czosnek świeży",
+        "quantity": "1 x Ząbek",
+        "grams": 6
+      },
+      {
+        "name": "Pesto zielone",
+        "quantity": "7 x Łyżeczka",
+        "grams": 35
+      }
+    ],
+    "description": "Kurczaka pokrój w paski, dopraw solą i pieprzem, smaż na połowie oliwy 6-8 min, odłóż. Ugotuj makaron wg instrukcji, zachowaj trochę wody. Szparagi pokrój na kawałki 4-5 cm, gotuj 3 min we wrzątku. Na tej samej patelni podsmaż czosnek 30 sek, dodaj makaron, pesto i wodę z gotowania, mieszaj 1-2 min. Dodaj kurczaka i szparagi, podgrzewaj 2 min.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Jednogarnkowe danie makaronowe z karmelizowaną cebulą",
+    "products": [
+      {
+        "name": "Makaron pełnoziarnisty",
+        "quantity": "1 x Porcja",
+        "grams": 85
+      },
+      {
+        "name": "Cebula",
+        "quantity": "1 x Porcja",
+        "grams": 250
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      },
+      {
+        "name": "Bulion warzywny (po rozrobieniu ze słoiczka)",
+        "quantity": "1 x Szklanka",
+        "grams": 300
+      },
+      {
+        "name": "Miód",
+        "quantity": "1 x Łyżeczka",
+        "grams": 12
+      },
+      {
+        "name": "Śmietanka 12%",
+        "quantity": "4 x Łyżka",
+        "grams": 72
+      },
+      {
+        "name": "Ser mozzarella kulka light",
+        "quantity": "0.5 x Opakowanie",
+        "grams": 60
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Tymianek suszony",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      },
+      {
+        "name": "Papryka ostra suszona",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      },
+      {
+        "name": "Papryka wędzona",
+        "quantity": "1 x Łyżeczka",
+        "grams": 3
+      }
+    ],
+    "description": "Cebulę pokrój w półplasterki, smaż pod przykryciem 10 min na oliwie, dodaj miód i karmelizuj kolejne 10-15 min. Dodaj makaron, bulion i śmietankę, dopraw solą, pieprzem, tymiankiem, ostrą i wędzoną papryką. Gotuj pod przykryciem 12-15 min na małym ogniu. Przełóż na talerz, posyp startym serem.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Ekspresowy udon teriyaki z tofu i edamame",
+    "products": [
+      {
+        "name": "Makaron udon świeży",
+        "quantity": "1 x Porcja",
+        "grams": 200
+      },
+      {
+        "name": "Tofu wędzone",
+        "quantity": "0.5 x Opakowanie",
+        "grams": 90
+      },
+      {
+        "name": "Fasola Edamame, świeża lub mrożona",
+        "quantity": "1 x Porcja",
+        "grams": 100
+      },
+      {
+        "name": "Czosnek świeży",
+        "quantity": "1 x Ząbek",
+        "grams": 6
+      },
+      {
+        "name": "Imbir",
+        "quantity": "1 x Plaster",
+        "grams": 5
+      },
+      {
+        "name": "Sos sojowy",
+        "quantity": "2 x Łyżka",
+        "grams": 20
+      },
+      {
+        "name": "Syrop klonowy",
+        "quantity": "1.5 x Łyżeczka",
+        "grams": 15
+      },
+      {
+        "name": "Ocet ryżowy",
+        "quantity": "1 x Łyżka",
+        "grams": 10
+      },
+      {
+        "name": "Olej rzepakowy",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      },
+      {
+        "name": "Bulion warzywny (po rozrobieniu ze słoiczka)",
+        "quantity": "1.5 x Szklanka",
+        "grams": 375
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Szczypiorek siekany",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      },
+      {
+        "name": "Sezam nasiona",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      }
+    ],
+    "description": "Ugotuj udon wg instrukcji. Tofu pokrój w kostkę, smaż na oleju 5-6 min do zrumienienia, odłóż. Podsmaż czosnek i starty imbir 30 sek, zalej bulionem, dodaj sos sojowy, syrop klonowy i ocet. Wrzuć edamame, gotuj 3-4 min. Dodaj tofu na 1-2 min. W misce ułóż makaron, zalej bulionem, posyp szczypiorkiem i sezamem.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Ryż z pieczarkami duszonymi w sosie sojowym i tymianku z sadzonym jajkiem",
+    "products": [
+      {
+        "name": "Ryż basmati",
+        "quantity": "1 x Porcja",
+        "grams": 70
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieczarki uprawne",
+        "quantity": "8 x Sztuka",
+        "grams": 160
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Sos sojowy",
+        "quantity": "2 x Łyżka",
+        "grams": 20
+      },
+      {
+        "name": "Tymianek suszony",
+        "quantity": "1 x Łyżeczka",
+        "grams": 3
+      },
+      {
+        "name": "Czosnek granulowany",
+        "quantity": "1 x Łyżeczka",
+        "grams": 3
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Jajko kurze całe",
+        "quantity": "4 x Sztuka",
+        "grams": 224
+      }
+    ],
+    "description": "Ugotuj ryż wg instrukcji. Pieczarki pokrój w plasterki, smaż na połowie oliwy z czosnkiem, tymiankiem i pieprzem 5-7 min. Dodaj sos sojowy, duś 2-3 min. Na osobnej patelni usmaż jajka sadzone na reszcie oliwy 3-4 min pod przykryciem. Na talerz wyłóż ryż, pieczarki i jajka.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Orientalny makaron z brokułem oraz mięsem",
+    "products": [
+      {
+        "name": "Makaron ryżowy",
+        "quantity": "1 x Porcja",
+        "grams": 70
+      },
+      {
+        "name": "Mięso mielone z indyka",
+        "quantity": "1 x Porcja",
+        "grams": 150
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "4 x Łyżeczka",
+        "grams": 20
+      },
+      {
+        "name": "Brokuł, świeży lub mrożony",
+        "quantity": "1 x Porcja",
+        "grams": 150
+      },
+      {
+        "name": "Cebula",
+        "quantity": "0.5 x Sztuka",
+        "grams": 40
+      },
+      {
+        "name": "Czosnek świeży",
+        "quantity": "1 x Ząbek",
+        "grams": 6
+      },
+      {
+        "name": "Imbir",
+        "quantity": "2 x Plaster",
+        "grams": 10
+      },
+      {
+        "name": "Papryczka chilli",
+        "quantity": "0.5 x Sztuka",
+        "grams": 5
+      },
+      {
+        "name": "Sos sojowy",
+        "quantity": "3 x Łyżka",
+        "grams": 30
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Szczypiorek siekany",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Sok z limonki",
+        "quantity": "2 x Łyżka",
+        "grams": 12
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      }
+    ],
+    "description": "Ugotuj makaron wg instrukcji. Brokuł gotuj 3-4 min al dente. Mięso rozdrobnij, wymieszaj z posiekaną cebulą, czosnkiem, imbirem i chilli, dopraw solą i pieprzem. Smaż mięso na oliwie 10 min do zrumienienia, dodaj brokuł i sok z limonki, smaż kilka minut. Dodaj makaron i sos sojowy, smaż 2 min. Posyp szczypiorkiem.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Burger wołowy z serem cheddar",
+    "products": [
+      {
+        "name": "Mięso mielone wołowe",
+        "quantity": "1 x Porcja",
+        "grams": 120
+      },
+      {
+        "name": "Bułka ciabatta",
+        "quantity": "1 x Sztuka",
+        "grams": 80
+      },
+      {
+        "name": "Ser cheddar",
+        "quantity": "1 x Plaster",
+        "grams": 15
+      },
+      {
+        "name": "Pomidor",
+        "quantity": "0.5 x Sztuka",
+        "grams": 80
+      },
+      {
+        "name": "Ogórek kiszony",
+        "quantity": "1 x Sztuka",
+        "grams": 50
+      },
+      {
+        "name": "Cebula dymka",
+        "quantity": "0.5 x Sztuka",
+        "grams": 10
+      },
+      {
+        "name": "Musztarda",
+        "quantity": "1 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Ketchup",
+        "quantity": "1 x Łyżka",
+        "grams": 20
+      },
+      {
+        "name": "Miks sałat",
+        "quantity": "1 x Porcja",
+        "grams": 10
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Olej rzepakowy",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      }
+    ],
+    "description": "Mięso dopraw solą i pieprzem, uformuj kulę i spłaszcz do 1 cm. Pomidora i ogórka pokrój w plastry, cebulę dymkę w kostkę. Smaż kotleta na oleju 8 min (obracając co 2 min), połóż ser cheddar i smaż pod przykryciem jeszcze 1 min. Ciabattę posmaruj ketchupem i musztardą, ułóż mięso i warzywa, złóż.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Pinsa z burratą",
+    "products": [
+      {
+        "name": "Pinsa",
+        "quantity": "1 x Sztuka",
+        "grams": 220
+      },
+      {
+        "name": "Sos do pizzy Mutti",
+        "quantity": "1 x Porcja",
+        "grams": 150
+      },
+      {
+        "name": "Ser mozzarella kulka light",
+        "quantity": "1 x Opakowanie",
+        "grams": 120
+      },
+      {
+        "name": "Szynka dojrzewająca Serrano EL TORO ROJO",
+        "quantity": "5 x Plaster",
+        "grams": 125
+      },
+      {
+        "name": "Cebula",
+        "quantity": "1 x Sztuka",
+        "grams": 80
+      },
+      {
+        "name": "Burrata",
+        "quantity": "1 x Opakowanie",
+        "grams": 120
+      }
+    ],
+    "description": "Nagrzej piekarnik do 220°C (termoobieg). Cebulę pokrój w piórka, mozzarellę zetrzyj lub pokrój. Na pinsę rozłóż sos, ser, szynkę i cebulę. Piecz 10-12 min. Po wyjęciu rozłóż kawałki burraty. Przepis na 2 porcje.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Polędwica wieprzowa z warzywami w sojowym sosie",
+    "products": [
+      {
+        "name": "Polędwica wieprzowa",
+        "quantity": "1 x Porcja",
+        "grams": 150
+      },
+      {
+        "name": "Ryż basmati",
+        "quantity": "1 x Porcja",
+        "grams": 70
+      },
+      {
+        "name": "Papryka czerwona",
+        "quantity": "1 x Sztuka",
+        "grams": 170
+      },
+      {
+        "name": "Sos sojowy",
+        "quantity": "1.5 x Łyżka",
+        "grams": 15
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "3 x Łyżeczka",
+        "grams": 15
+      },
+      {
+        "name": "Szczypiorek siekany",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Cebula",
+        "quantity": "0.5 x Sztuka",
+        "grams": 40
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Sezam nasiona",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      }
+    ],
+    "description": "Ugotuj ryż wg instrukcji. Polędwicę pokrój w cienkie plasterki, dopraw solą i pieprzem. Paprykę pokrój w kostkę, cebulę w plasterki, podsmaż na połowie oliwy 3 min, odłóż. Na reszcie oliwy smaż polędwicę na dużym ogniu 3 min. Dodaj warzywa i sos sojowy, smaż 2 min. Podaj z ryżem, posyp sezamem i szczypiorkiem.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Tortilla z grillowanym schabem wieprzowym, warzywami i sosem jogurtowym",
+    "products": [
+      {
+        "name": "Schab wieprzowy",
+        "quantity": "1 x Porcja",
+        "grams": 120
+      },
+      {
+        "name": "Czosnek granulowany",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      },
+      {
+        "name": "Miks sałat",
+        "quantity": "1 x Porcja",
+        "grams": 30
+      },
+      {
+        "name": "Papryka czerwona",
+        "quantity": "1 x Sztuka",
+        "grams": 170
+      },
+      {
+        "name": "Ogórek świeży",
+        "quantity": "1 x Sztuka",
+        "grams": 150
+      },
+      {
+        "name": "Cebula",
+        "quantity": "0.5 x Sztuka",
+        "grams": 40
+      },
+      {
+        "name": "Jogurt naturalny 2%",
+        "quantity": "2.5 x Łyżka",
+        "grams": 50
+      },
+      {
+        "name": "Sok z cytryny",
+        "quantity": "1 x Łyżka",
+        "grams": 6
+      },
+      {
+        "name": "Tortilla pełnoziarnista",
+        "quantity": "2 x Sztuka",
+        "grams": 120
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      }
+    ],
+    "description": "Schab pokrój w paski, dopraw solą, pieprzem, czosnkiem i oliwą. Smaż na patelni 6-8 min. Warzywa pokrój na kawałki. Wymieszaj jogurt z sokiem z cytryny. Na tortille nałóż sos, sałatę, mięso i warzywa, zawiń.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Cynamonowe gnocchi",
+    "products": [
+      {
+        "name": "Gnocchi",
+        "quantity": "1 x Porcja",
+        "grams": 250
+      },
+      {
+        "name": "Olej rzepakowy",
+        "quantity": "1.5 x Łyżka",
+        "grams": 15
+      },
+      {
+        "name": "Cynamon mielony",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 2
+      },
+      {
+        "name": "Erytrol",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Jogurt skyr",
+        "quantity": "2 x Opakowanie",
+        "grams": 300
+      },
+      {
+        "name": "Maliny świeże lub mrożone",
+        "quantity": "1 x Porcja",
+        "grams": 125
+      }
+    ],
+    "description": "Ugotuj gnocchi wg instrukcji. Podsmaż na rozgrzanym oleju, posyp cynamonem i erytrolem. Podaj z jogurtem skyr i malinami.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Kebab gyros",
+    "products": [
+      {
+        "name": "Schab wieprzowy",
+        "quantity": "1 x Porcja",
+        "grams": 125
+      },
+      {
+        "name": "Miks sałat",
+        "quantity": "1 x Porcja",
+        "grams": 40
+      },
+      {
+        "name": "Pomidor",
+        "quantity": "0.5 x Sztuka",
+        "grams": 80
+      },
+      {
+        "name": "Ogórek świeży",
+        "quantity": "1 x Sztuka",
+        "grams": 150
+      },
+      {
+        "name": "Cebula czerwona",
+        "quantity": "0.5 x Sztuka",
+        "grams": 40
+      },
+      {
+        "name": "Sos sriracha",
+        "quantity": "2 x Łyżka",
+        "grams": 20
+      },
+      {
+        "name": "Jogurt naturalny 2%",
+        "quantity": "2 x Łyżka",
+        "grams": 40
+      },
+      {
+        "name": "Sok z cytryny",
+        "quantity": "1 x Łyżka",
+        "grams": 6
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Przyprawa gyros",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      },
+      {
+        "name": "Czosnek świeży",
+        "quantity": "1 x Ząbek",
+        "grams": 6
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      },
+      {
+        "name": "Tortilla pełnoziarnista",
+        "quantity": "2 x Sztuka",
+        "grams": 120
+      }
+    ],
+    "description": "Schab pokrój w paski, dopraw przyprawą gyros, oliwą, solą i pieprzem. Warzywa pokrój w paski. Wymieszaj jogurt, sriracha, czosnek, sok z cytryny, sól i pieprz na sos. Smaż schab 6-7 min na średnim ogniu. Tortillę podgrzej, posmaruj sosem, ułóż mięso i warzywa, zawiń.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Makaron z sosem z karmelizowanej cebuli",
+    "products": [
+      {
+        "name": "Makaron pełnoziarnisty",
+        "quantity": "1 x Porcja",
+        "grams": 80
+      },
+      {
+        "name": "Cebula",
+        "quantity": "4 x Sztuka",
+        "grams": 320
+      },
+      {
+        "name": "Masło extra",
+        "quantity": "1 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Bulion warzywny (po rozrobieniu ze słoiczka)",
+        "quantity": "0.4 x Szklanka",
+        "grams": 100
+      },
+      {
+        "name": "Parmezan starty",
+        "quantity": "2.5 x Łyżka",
+        "grams": 25
+      },
+      {
+        "name": "Natka pietruszki posiekana",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      }
+    ],
+    "description": "Ugotuj makaron wg instrukcji. Cebulę pokrój w piórka, smaż na maśle z oliwą 10 min, potem karmelizuj na małym ogniu 30-40 min. Wlej bulion, gotuj 3 min do zgęstnienia, dopraw solą i pieprzem. Przełóż makaron na patelnię z sosem, mieszaj 1 min. Posyp parmezanem i natką pietruszki.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Sałatka z tuńczykiem, ryżem, papryką czerwoną oraz kukurydzą konserwową",
+    "products": [
+      {
+        "name": "Ryż basmati",
+        "quantity": "1 x Porcja",
+        "grams": 45
+      },
+      {
+        "name": "Tuńczyk w sosie własnym",
+        "quantity": "1.5 x Opakowanie",
+        "grams": 180
+      },
+      {
+        "name": "Kapary",
+        "quantity": "2 x Łyżka",
+        "grams": 20
+      },
+      {
+        "name": "Seler naciowy",
+        "quantity": "1 x Łodyga",
+        "grams": 45
+      },
+      {
+        "name": "Natka pietruszki posiekana",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Papryka czerwona",
+        "quantity": "0.5 x Sztuka",
+        "grams": 85
+      },
+      {
+        "name": "Kukurydza konserwowa",
+        "quantity": "5 x Łyżka",
+        "grams": 100
+      },
+      {
+        "name": "Majonez",
+        "quantity": "2.5 x Łyżeczka",
+        "grams": 25
+      },
+      {
+        "name": "Musztarda",
+        "quantity": "2 x Łyżeczka",
+        "grams": 20
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Sok z cytryny",
+        "quantity": "2 x Łyżka",
+        "grams": 12
+      }
+    ],
+    "description": "Ugotuj ryż wg instrukcji, ostudź. Pokrój seler naciowy, paprykę i natkę, odcedź kapary, kukurydzę i tuńczyka. Wszystko przełóż do miski, dodaj majonez, musztardę, sól, pieprz i sok z cytryny, dokładnie wymieszaj.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Kurczak w kremowym sosie pesto",
+    "products": [
+      {
+        "name": "Makaron pełnoziarnisty",
+        "quantity": "1 x Porcja",
+        "grams": 90
+      },
+      {
+        "name": "Mięso z piersi kurczaka",
+        "quantity": "1 x Porcja",
+        "grams": 125
+      },
+      {
+        "name": "Papryka słodka",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      },
+      {
+        "name": "Pesto zielone",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Pomidorki koktajlowe",
+        "quantity": "5 x Sztuka",
+        "grams": 100
+      },
+      {
+        "name": "Szpinak",
+        "quantity": "1 x Porcja",
+        "grams": 20
+      },
+      {
+        "name": "Śmietana 12%",
+        "quantity": "5 x Łyżka",
+        "grams": 90
+      },
+      {
+        "name": "Parmezan starty",
+        "quantity": "0.5 x Łyżka",
+        "grams": 5
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      }
+    ],
+    "description": "Ugotuj makaron wg instrukcji, zachowaj 50 ml wody. Kurczaka pokrój w paski, przypraw papryką, smaż na oliwie. Odłóż mięso, na patelni podsmaż połówki pomidorków z pesto. Dodaj szpinak, wlej śmietanę, dopraw solą i pieprzem, zagotuj. Dodaj mięso i parmezan. Podaj z makaronem.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Tortilla ze schabem i serem cheddar",
+    "products": [
+      {
+        "name": "Tortilla pełnoziarnista",
+        "quantity": "1 x Sztuka",
+        "grams": 60
+      },
+      {
+        "name": "Schab wieprzowy",
+        "quantity": "1 x Porcja",
+        "grams": 175
+      },
+      {
+        "name": "Papryka wędzona",
+        "quantity": "1 x Łyżeczka",
+        "grams": 3
+      },
+      {
+        "name": "Rozmaryn suszony",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      },
+      {
+        "name": "Tymianek suszony",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Szpinak",
+        "quantity": "1 x Porcja",
+        "grams": 25
+      },
+      {
+        "name": "Marchew",
+        "quantity": "1 x Sztuka",
+        "grams": 80
+      },
+      {
+        "name": "Ser cheddar",
+        "quantity": "1 x Porcja",
+        "grams": 30
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "1 x Łyżka",
+        "grams": 10
+      }
+    ],
+    "description": "Marchew zetrzyj na drobnej tarce, ser na grubej. Schab pokrój w plastry 1 cm, przypraw wędzoną papryką, rozmarynem, tymiankiem, solą i pieprzem. Smaż na oliwie 3-4 min z każdej strony. Na tortilli ułóż szpinak, marchew, schab i ser. Zawiń i podpiecz w opiekaczu lub na suchej patelni do zrumienienia.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Tortilla z serem halloumi i sosem tzatziki (2 porcje)",
+    "products": [
+      {
+        "name": "Tortilla pełnoziarnista",
+        "quantity": "3 x Sztuka",
+        "grams": 180
+      },
+      {
+        "name": "Ser halloumi",
+        "quantity": "9 x Plaster",
+        "grams": 225
+      },
+      {
+        "name": "Szpinak",
+        "quantity": "1 x Porcja",
+        "grams": 50
+      },
+      {
+        "name": "Pomidor",
+        "quantity": "1 x Sztuka",
+        "grams": 160
+      },
+      {
+        "name": "Jogurt naturalny 2%",
+        "quantity": "5 x Łyżka",
+        "grams": 100
+      },
+      {
+        "name": "Ogórek świeży",
+        "quantity": "1 x Sztuka",
+        "grams": 150
+      },
+      {
+        "name": "Sok z cytryny",
+        "quantity": "1 x Łyżka",
+        "grams": 6
+      },
+      {
+        "name": "Czosnek granulowany",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Koper posiekany",
+        "quantity": "2 x Łyżeczka",
+        "grams": 8
+      }
+    ],
+    "description": "Ogórka zetrzyj na tarce, posól, odcedź wodę. Wymieszaj jogurt, ogórek, sok z cytryny, czosnek, sól, pieprz i koperek na sos tzatziki. Halloumi grilluj lub smaż beztłuszczowo do zrumienienia. Na tortillę nałóż sos, szpinak, pokrojonego pomidora i halloumi, złóż. Przepis na 2 porcje.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Zupa Tom Yum z kurczakiem",
+    "products": [
+      {
+        "name": "Makaron ryżowy",
+        "quantity": "1 x Porcja",
+        "grams": 75
+      },
+      {
+        "name": "Mięso z piersi kurczaka",
+        "quantity": "1 x Porcja",
+        "grams": 150
+      },
+      {
+        "name": "Olej rzepakowy",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      },
+      {
+        "name": "Bulion warzywny (po rozrobieniu ze słoiczka)",
+        "quantity": "1.5 x Szklanka",
+        "grams": 375
+      },
+      {
+        "name": "Mleczko kokosowe 12%",
+        "quantity": "6 x Łyżka",
+        "grams": 120
+      },
+      {
+        "name": "Pasta Tom Yum",
+        "quantity": "1.5 x Łyżeczka",
+        "grams": 18
+      },
+      {
+        "name": "Pieczarki uprawne",
+        "quantity": "4 x Sztuka",
+        "grams": 80
+      },
+      {
+        "name": "Imbir",
+        "quantity": "2 x Plaster",
+        "grams": 10
+      },
+      {
+        "name": "Sos rybny",
+        "quantity": "2 x Łyżka",
+        "grams": 20
+      },
+      {
+        "name": "Sok z limonki",
+        "quantity": "2 x Łyżka",
+        "grams": 12
+      },
+      {
+        "name": "Sól",
+        "quantity": "2 x Szczypta",
+        "grams": 0.5
+      },
+      {
+        "name": "Szczypiorek siekany",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      }
+    ],
+    "description": "Ugotuj makaron wg instrukcji. Mięso i pieczarki pokrój, imbir zetrzyj. Na oleju podsmaż imbir 1-2 min, dodaj mięso na 4-5 min. Wlej bulion, dodaj pieczarki i pastę Tom Yum, gotuj 10-15 min. Wlej mleczko kokosowe, gotuj 5 min. Wyłącz ogień, dodaj sos rybny i sok z limonki. W misce ułóż makaron, zalej zupą, posyp szczypiorkiem.",
+    "type": "Obiad"
+  },
+  {
+    "name": "Kostki z kaszy manny na mleku z sosem owocowym",
+    "products": [
+      {
+        "name": "Kasza manna",
+        "quantity": "1 x Porcja",
+        "grams": 35
+      },
+      {
+        "name": "Mleko roślinne niesłodzone",
+        "quantity": "0.7 x Szklanka",
+        "grams": 175
+      },
+      {
+        "name": "Maliny świeże lub mrożone",
+        "quantity": "1 x Porcja",
+        "grams": 75
+      },
+      {
+        "name": "Miód",
+        "quantity": "2 x Łyżeczka",
+        "grams": 24
+      }
+    ],
+    "description": "Zagotuj mleko, wsyp kaszę mannę cienkim strumieniem, mieszając. Gotuj 5 min na małym ogniu do zgęstnienia, dodaj miód. Przełóż do formy zwilżonej wodą, wyrównaj na 2 cm, ostudź i schłódź 30 min w lodówce. Maliny ugotuj z odrobiną wody 5-8 min na sos. Pokrój kaszę w kostki i polej sosem.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Koktajl z banana, borówek oraz malin",
+    "products": [
+      {
+        "name": "Banan",
+        "quantity": "1 x Sztuka",
+        "grams": 120
+      },
+      {
+        "name": "Borówki amerykańskie, świeże lub mrożone",
+        "quantity": "1 x Porcja",
+        "grams": 100
+      },
+      {
+        "name": "Maliny świeże lub mrożone",
+        "quantity": "1 x Porcja",
+        "grams": 50
+      },
+      {
+        "name": "Jogurt skyr",
+        "quantity": "1 x Opakowanie",
+        "grams": 150
+      }
+    ],
+    "description": "Wszystkie składniki zblenduj na gładki koktajl.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Pieczona ciecierzyca",
+    "products": [
+      {
+        "name": "Ciecierzyca konserwowa",
+        "quantity": "1 x Porcja",
+        "grams": 200
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "1.5 x Łyżeczka",
+        "grams": 7.5
+      },
+      {
+        "name": "Sól",
+        "quantity": "4 x Szczypta",
+        "grams": 1
+      },
+      {
+        "name": "Czosnek granulowany",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      },
+      {
+        "name": "Papryka wędzona",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      },
+      {
+        "name": "Papryka ostra suszona",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      },
+      {
+        "name": "Kumin",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 2.5
+      }
+    ],
+    "description": "Nagrzej piekarnik do 200°C. Ciecierzycę odcedź, przepłucz i osusz. Wymieszaj z oliwą i przyprawami. Rozłóż na blaszce z papierem i piecz 25 min, potrząsając co 10 min.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Frytki z marchwi oraz pietruszki",
+    "products": [
+      {
+        "name": "Marchew",
+        "quantity": "2 x Sztuka",
+        "grams": 160
+      },
+      {
+        "name": "Pietruszka korzeń",
+        "quantity": "2 x Sztuka",
+        "grams": 100
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Rozmaryn suszony",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      },
+      {
+        "name": "Tymianek suszony",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      },
+      {
+        "name": "Czosnek granulowany",
+        "quantity": "1 x Łyżeczka",
+        "grams": 3
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "1.5 x Łyżka",
+        "grams": 15
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      },
+      {
+        "name": "Sezam nasiona",
+        "quantity": "1 x Łyżeczka",
+        "grams": 5
+      }
+    ],
+    "description": "Nagrzej piekarnik do 180°C. Marchew i pietruszkę obierz i pokrój na równe frytki. Wymieszaj z przyprawami i oliwą. Piecz ok. 20 min. Posyp sezamem.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Smoothie Fruity Dream (jabłko, banan, mango) Solevita + orzechy",
+    "products": [
+      {
+        "name": "Smoothie Fruity Dream (jabłko, banan, mango) Solevita",
+        "quantity": "1 x Opakowanie",
+        "grams": 250
+      },
+      {
+        "name": "Orzechy nerkowca",
+        "quantity": "1 x Porcja",
+        "grams": 30
+      }
+    ],
+    "description": "Wypij smoothie i zjedz orzechy nerkowca.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Banan + orzechy włoskie",
+    "products": [
+      {
+        "name": "Banan",
+        "quantity": "1 x Sztuka",
+        "grams": 120
+      },
+      {
+        "name": "Orzechy włoskie",
+        "quantity": "1 x Porcja",
+        "grams": 30
+      }
+    ],
+    "description": "Zjedz banana z orzechami włoskimi.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Kukurydza z grilla",
+    "products": [
+      {
+        "name": "Kukurydza, kolba",
+        "quantity": "1 x Sztuka",
+        "grams": 180
+      },
+      {
+        "name": "Masło extra",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Sól",
+        "quantity": "2 x Szczypta",
+        "grams": 0.5
+      },
+      {
+        "name": "Papryka wędzona",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      },
+      {
+        "name": "Papryka słodka",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      },
+      {
+        "name": "Zioła prowansalskie",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      }
+    ],
+    "description": "Kukurydzę namocz w wodzie 30 min. Rozpuść masło na małym ogniu. Osusz kukurydzę, posmaruj masłem, posyp solą, wędzoną i słodką papryką oraz ziołami prowansalskimi. Grilluj 20 min, obracając co kilka minut.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Koktajl truskawkowy ze skyrem",
+    "products": [
+      {
+        "name": "Truskawki, świeże lub mrożone",
+        "quantity": "1 x Porcja",
+        "grams": 150
+      },
+      {
+        "name": "Jogurt skyr",
+        "quantity": "1.5 x Opakowanie",
+        "grams": 225
+      },
+      {
+        "name": "Woda",
+        "quantity": "0.6 x Szklanka",
+        "grams": 150
+      },
+      {
+        "name": "Miód",
+        "quantity": "3 x Łyżeczka",
+        "grams": 36
+      },
+      {
+        "name": "Cynamon mielony",
+        "quantity": "1 x Szczypta",
+        "grams": 1
+      }
+    ],
+    "description": "Wszystkie składniki zblenduj na gładką masę. W razie potrzeby dolej wody.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Hummus z marchwią, ogórkiem oraz papryką czerwoną",
+    "products": [
+      {
+        "name": "Hummus",
+        "quantity": "10 x Łyżeczka",
+        "grams": 100
+      },
+      {
+        "name": "Marchew",
+        "quantity": "1 x Sztuka",
+        "grams": 80
+      },
+      {
+        "name": "Papryka czerwona",
+        "quantity": "0.5 x Sztuka",
+        "grams": 85
+      },
+      {
+        "name": "Ogórek świeży",
+        "quantity": "0.5 x Sztuka",
+        "grams": 75
+      }
+    ],
+    "description": "Warzywa pokrój w słupki i podaj z hummusem do maczania.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Borówki + orzechy włoskie",
+    "products": [
+      {
+        "name": "Borówki amerykańskie, świeże lub mrożone",
+        "quantity": "1 x Porcja",
+        "grams": 175
+      },
+      {
+        "name": "Orzechy włoskie",
+        "quantity": "1 x Porcja",
+        "grams": 30
+      }
+    ],
+    "description": "Zjedz borówki z orzechami włoskimi.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Odżywka + mleko",
+    "products": [
+      {
+        "name": "Odżywka białkowa",
+        "quantity": "3.5 x Łyżka",
+        "grams": 35
+      },
+      {
+        "name": "Mleko 1,5%",
+        "quantity": "1.5 x Szklanka",
+        "grams": 350
+      }
+    ],
+    "description": "Wymieszaj odżywkę białkową z mlekiem.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Popcorn",
+    "products": [
+      {
+        "name": "Kukurydza",
+        "quantity": "1 x Porcja",
+        "grams": 50
+      },
+      {
+        "name": "Olej rzepakowy",
+        "quantity": "3 x Łyżeczka",
+        "grams": 15
+      },
+      {
+        "name": "Sól",
+        "quantity": "2 x Szczypta",
+        "grams": 0.5
+      }
+    ],
+    "description": "Rozgrzej olej w garnku na średnim ogniu. Wrzuć ziarna kukurydzy, przykryj pokrywką. Wstrząsaj garnkiem co jakiś czas. Praż do ustania dźwięku prażenia. Posyp solą.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Jabłko + migdały",
+    "products": [
+      {
+        "name": "Jabłko",
+        "quantity": "1 x Sztuka",
+        "grams": 150
+      },
+      {
+        "name": "Migdały",
+        "quantity": "1 x Porcja",
+        "grams": 35
+      }
+    ],
+    "description": "Zjedz jabłko z migdałami.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Chipsy z buraka z startym parmezanem",
+    "products": [
+      {
+        "name": "Burak surowy",
+        "quantity": "3 x Sztuka",
+        "grams": 300
+      },
+      {
+        "name": "Parmezan starty",
+        "quantity": "4 x Łyżka",
+        "grams": 40
+      },
+      {
+        "name": "Sól",
+        "quantity": "2 x Szczypta",
+        "grams": 0.5
+      }
+    ],
+    "description": "Nagrzej piekarnik do 200°C (termoobieg). Ugotowane buraki pokrój w cienkie plasterki, ułóż na blaszce z papierem, posyp solą. Zapiekaj 15-20 min. Wysuń blaszkę, posyp parmezanem i zapiekaj jeszcze 2 min do rozpuszczenia sera.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Karmelowe szyszki",
+    "products": [
+      {
+        "name": "Pudding proteinowy smak słony karmel Go Active",
+        "quantity": "1 x Opakowanie",
+        "grams": 200
+      },
+      {
+        "name": "Wafle ryżowe",
+        "quantity": "4 x Sztuka",
+        "grams": 40
+      },
+      {
+        "name": "Masło orzechowe",
+        "quantity": "3 x Łyżeczka",
+        "grams": 30
+      },
+      {
+        "name": "Czekolada gorzka 70%",
+        "quantity": "2 x Kostka",
+        "grams": 20
+      }
+    ],
+    "description": "Wafle ryżowe pokrusz. Pudding wymieszaj z masłem orzechowym, dodaj pokruszone wafle. Uformuj kulki lub szyszkę, schłódź w lodówce min. 1 h. Rozpuść czekoladę w kąpieli wodnej lub mikrofali i udekoruj szyszki. Przepis na 2 porcje.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Deser twarogowy High Protein Pilos waniliowy + owoc + orzechy",
+    "products": [
+      {
+        "name": "Deser twarogowy High Protein Pilos waniliowy",
+        "quantity": "1 x Opakowanie",
+        "grams": 125
+      },
+      {
+        "name": "Borówki amerykańskie, świeże lub mrożone",
+        "quantity": "1 x Porcja",
+        "grams": 100
+      },
+      {
+        "name": "Mieszanka orzechów",
+        "quantity": "1 x Porcja",
+        "grams": 20
+      }
+    ],
+    "description": "Deser twarogowy podaj z borówkami i mieszanką orzechów.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Pudding chia z musem mango",
+    "products": [
+      {
+        "name": "Jogurt naturalny 2%",
+        "quantity": "0.5 x Opakowanie",
+        "grams": 160
+      },
+      {
+        "name": "Nasiona chia",
+        "quantity": "3 x Łyżeczka",
+        "grams": 15
+      },
+      {
+        "name": "Ksylitol",
+        "quantity": "1 x Łyżka",
+        "grams": 15
+      },
+      {
+        "name": "Mango świeże lub mrożone",
+        "quantity": "1 x Porcja",
+        "grams": 100
+      },
+      {
+        "name": "Orzechy laskowe",
+        "quantity": "1 x Porcja",
+        "grams": 5
+      }
+    ],
+    "description": "Wymieszaj jogurt z nasionami chia i ksylitolem. Schłódź w lodówce min. 4 h. Mango zblenduj na puree. Po wyjęciu deseru z lodówki polej puree z mango i posyp posiekanymi orzechami.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Słodka kanapka z wafli ryżowych",
+    "products": [
+      {
+        "name": "Wafle ryżowe",
+        "quantity": "2 x Sztuka",
+        "grams": 20
+      },
+      {
+        "name": "Masło orzechowe",
+        "quantity": "2 x Łyżeczka",
+        "grams": 20
+      },
+      {
+        "name": "Banan",
+        "quantity": "0.5 x Sztuka",
+        "grams": 60
+      },
+      {
+        "name": "Czekolada gorzka 70%",
+        "quantity": "1 x Kostka",
+        "grams": 10
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.25
+      }
+    ],
+    "description": "Wafle posmaruj masłem orzechowym. Banana pokrój i rozłóż na dolnym waflu, przykryj drugim. Rozpuść czekoladę w kąpieli wodnej lub mikrofali i polej kanapkę. Posyp solą.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Kaszka + orzechy włoskie",
+    "products": [
+      {
+        "name": "Kaszka mleczna high protein Pilos",
+        "quantity": "1 x Opakowanie",
+        "grams": 200
+      },
+      {
+        "name": "Orzechy włoskie",
+        "quantity": "1 x Porcja",
+        "grams": 20
+      }
+    ],
+    "description": "Kaszkę zjedz z orzechami włoskimi.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Owsianka z bananami, kakao Lubella + owoc + orzechy",
+    "products": [
+      {
+        "name": "Owsianka Lubella z bananami, kakao",
+        "quantity": "1 x Opakowanie",
+        "grams": 100
+      },
+      {
+        "name": "Orzechy nerkowca",
+        "quantity": "1 x Porcja",
+        "grams": 20
+      },
+      {
+        "name": "Banan",
+        "quantity": "1 x Sztuka",
+        "grams": 120
+      }
+    ],
+    "description": "Owsiankę przygotuj wg instrukcji na opakowaniu. Podaj z bananem i orzechami nerkowca.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Jabłko + orzechy",
+    "products": [
+      {
+        "name": "Jabłko",
+        "quantity": "1 x Porcja",
+        "grams": 400
+      },
+      {
+        "name": "Mieszanka orzechów",
+        "quantity": "1 x Porcja",
+        "grams": 15
+      }
+    ],
+    "description": "Zjedz jabłko z mieszanką orzechów.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Gruszka + orzechy",
+    "products": [
+      {
+        "name": "Gruszka",
+        "quantity": "2 x Sztuka",
+        "grams": 350
+      },
+      {
+        "name": "Mieszanka orzechów",
+        "quantity": "1 x Porcja",
+        "grams": 15
+      }
+    ],
+    "description": "Zjedz gruszki z mieszanką orzechów.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Koktajl odżywczy (mango, marakuja) Piątnica + owoce",
+    "products": [
+      {
+        "name": "Koktajl białkowy (mango, marakuja) Piątnica",
+        "quantity": "1 x Opakowanie",
+        "grams": 250
+      },
+      {
+        "name": "Jabłko",
+        "quantity": "1 x Sztuka",
+        "grams": 150
+      }
+    ],
+    "description": "Wypij koktajl białkowy i zjedz jabłko.",
+    "type": "Przekąska"
+  },
+  {
+    "name": "Bułeczki bao",
+    "products": [
+      {
+        "name": "Kluska na parze",
+        "quantity": "1 x Sztuka",
+        "grams": 67
+      },
+      {
+        "name": "Mięso z piersi kurczaka",
+        "quantity": "1 x Porcja",
+        "grams": 125
+      },
+      {
+        "name": "Maślanka 1,5%",
+        "quantity": "3 x Łyżka",
+        "grams": 45
+      },
+      {
+        "name": "Oliwa z oliwek",
+        "quantity": "3 x Łyżeczka",
+        "grams": 15
+      },
+      {
+        "name": "Mąka ryżowa",
+        "quantity": "4 x Łyżka",
+        "grams": 40
+      },
+      {
+        "name": "Pieprz czarny",
+        "quantity": "1 x Szczypta",
+        "grams": 0.3
+      },
+      {
+        "name": "Papryka ostra suszona",
+        "quantity": "1 x Szczypta",
+        "grams": 0.5
+      },
+      {
+        "name": "Czosnek granulowany",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 1.5
+      },
+      {
+        "name": "Sól",
+        "quantity": "1 x Szczypta",
+        "grams": 0.3
+      },
+      {
+        "name": "Pasta paprykowa Gochujang",
+        "quantity": "2 x Łyżeczka",
+        "grams": 10
+      },
+      {
+        "name": "Miód",
+        "quantity": "0.5 x Łyżeczka",
+        "grams": 6
+      },
+      {
+        "name": "Sos sojowy",
+        "quantity": "1 x Łyżka",
+        "grams": 10
+      },
+      {
+        "name": "Woda",
+        "quantity": "5 x Łyżka",
+        "grams": 75
+      },
+      {
+        "name": "Ogórek świeży",
+        "quantity": "0.5 x Sztuka",
+        "grams": 75
+      },
+      {
+        "name": "Pomidorki koktajlowe",
+        "quantity": "3 x Sztuka",
+        "grams": 60
+      }
+    ],
+    "description": "Kluski na parze gotuj wg instrukcji na opakowaniu (np. Kluski na parze Nasze Smaki z Biedronki). Mięso pokrój w równą kostkę 2-3 cm, przełóż do miski, zalej maślanką, wymieszaj i odstaw do lodówki na 60 min. W misce wymieszaj mąkę ryżową, pieprz, ostrą paprykę, czosnek granulowany i sól. Mięso wyjmij z maślanki, partiami obtaczaj w panierce, dociskając ją do mięsa. Smaż na rozgrzanej oliwie na średnim ogniu ok. 3-4 min z każdej strony, aż panierka będzie złocista, a mięso w środku jasne. Zdejmij mięso z patelni, na tej samej patelni przygotuj sos z pasty Gochujang, miodu, sosu sojowego i wody, podgrzewając do zgęstnienia. Wróć mięso na patelnię i obtocz sosem. Bułkę przekrój, ułóż mięso, podawaj z pokrojonym ogórkiem i pomidorkami.",
+    "type": "Obiad"
+  },
+  {
     "name": "Kanapka z pomidorem i hummusem, Banan",
     "products": [
       {
