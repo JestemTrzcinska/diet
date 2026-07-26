@@ -10,6 +10,7 @@ import 'react-native-reanimated';
 
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { SelectedMealsProvider } from '@/context/Context';
+import { PacksProvider } from '@/context/PacksContext';
 
 export default function RootLayout() {
   const colorScheme = useColorScheme();
@@ -23,14 +24,17 @@ export default function RootLayout() {
   }
 
   return (
-    <SelectedMealsProvider>
-      <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-        <Stack>
-          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-          <Stack.Screen name="+not-found" />
-        </Stack>
-        <StatusBar style="auto" />
-      </ThemeProvider>
-    </SelectedMealsProvider>
+    <PacksProvider>
+      <SelectedMealsProvider>
+        <ThemeProvider
+          value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+          <Stack>
+            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+            <Stack.Screen name="+not-found" />
+          </Stack>
+          <StatusBar style="auto" />
+        </ThemeProvider>
+      </SelectedMealsProvider>
+    </PacksProvider>
   );
 }
