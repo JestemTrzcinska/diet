@@ -2,7 +2,13 @@ import { ThemedView } from '@/components/ThemedView';
 import { ThemedText } from '@/components/ThemedText';
 import { useSelectedMeals } from '@/context/Context';
 import { Meal } from '@/components/Meal';
-import { FlatList, Platform, StyleSheet, TouchableOpacity } from 'react-native';
+import {
+  Alert,
+  FlatList,
+  Platform,
+  StyleSheet,
+  TouchableOpacity,
+} from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { HelloWave } from '@/components/HelloWave';
 import * as Clipboard from 'expo-clipboard';
@@ -10,28 +16,28 @@ import { MealState } from '@/constants/types';
 import { useState } from 'react';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import { useColorScheme } from '@/hooks/useColorScheme';
+import { usePacks } from '@/context/PacksContext';
 
 export default function Lists() {
   const theme = useColorScheme() ?? 'light';
   const { top } = useSafeAreaInsets();
   const { selectedMeals } = useSelectedMeals();
+  const { savePack } = usePacks();
 
   const [showFilters, setShowFilters] = useState(true);
 
   const generateShoppingList = async (meals: MealState[]) => {
     const allProducts = meals.flatMap(meal => meal.products);
 
-    // Create a map to sum quantities of products with the same name and unit
     const productMap = new Map<
       string,
       { quantity: number; unit: string; grams: number }
     >();
 
     allProducts.forEach(product => {
-      // Parse the quantity string (e.g., "1 x szklanka" -> quantity = 1, unit = "szklanka")
       const [quantityStr, , ...unitParts] = product.quantity.split(' ');
       const quantity = parseFloat(quantityStr);
-      const unit = unitParts.join(' '); // In case unit has spaces
+      const unit = unitParts.join(' ');
 
       const key = `${product.name} ${unit}`;
 
@@ -43,29 +49,59 @@ export default function Lists() {
           grams: existing.grams + product.grams,
         });
       } else {
-        productMap.set(key, {
-          quantity,
-          unit,
-          grams: product.grams,
-        });
+        productMap.set(key, { quantity, unit, grams: product.grams });
       }
     });
 
-    // Convert the map back to an array of strings
     const textToCopy = Array.from(productMap.entries())
       .map(([key, { quantity, unit, grams }]) => {
-        const name = key.split(' ').slice(0, -1).join(' '); // Remove the unit from the key
+        const name = key.split(' ').slice(0, -1).join(' ');
         return `${name} (${quantity} x ${unit}) ${grams} g`;
       })
       .join('\n');
 
     if (textToCopy) {
       await Clipboard.setStringAsync(textToCopy);
-      alert('Lista zakupów została skopiowana do schowka!');
+      await savePack(meals);
+      alert('Lista zakupów skopiowana i zapisana jako paczka!');
     } else {
       alert('Brak produktów do skopiowania!');
     }
   };
+
+  const handleSavePackManually = () => {
+    const defaultName =
+      new Date().toLocaleDateString('pl-PL', {
+        day: 'numeric',
+        month: 'short',
+        year: 'numeric',
+      }) +
+      ', ' +
+      new Date().toLocaleTimeString('pl-PL', {
+        hour: '2-digit',
+        minute: '2-digit',
+      });
+
+    if (Platform.OS === 'ios') {
+      Alert.prompt(
+        'Zapisz paczkę',
+        'Podaj nazwę planu dnia:',
+        async name => {
+          if (name !== null && name !== undefined) {
+            await savePack(selectedMeals, name.trim() || defaultName);
+            alert('Paczka zapisana!');
+          }
+        },
+        'plain-text',
+        defaultName,
+      );
+    } else {
+      savePack(selectedMeals, defaultName).then(() => {
+        alert(`Paczka "${defaultName}" zapisana!`);
+      });
+    }
+  };
+
   return (
     <ThemedView
       style={[
@@ -105,6 +141,11 @@ export default function Lists() {
                 style={styles.button}>
                 <ThemedText>Wygeneruj listę zakupów dla dwóch osób</ThemedText>
               </TouchableOpacity>
+              <TouchableOpacity
+                onPress={handleSavePackManually}
+                style={[styles.button, styles.buttonSave]}>
+                <ThemedText>Zapisz jako paczkę</ThemedText>
+              </TouchableOpacity>
             </>
           )}
         </>
@@ -141,5 +182,8 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     width: Platform.OS === 'web' ? '50%' : '100%',
     alignItems: 'center',
+  },
+  buttonSave: {
+    borderColor: 'green',
   },
 });
