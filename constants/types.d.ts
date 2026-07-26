@@ -18,3 +18,18 @@ export interface Nutrition {
   carbohydrates: number;
   fat: number;
 }
+
+export interface DayPackTotals {
+  calories: number;
+  protein: number;
+  fat: number;
+  carbohydrates: number;
+}
+
+export interface DayPack {
+  id: string;
+  name: string;
+  createdAt: string;
+  meals: MealState[];
+  totals: DayPackTotals;
+}
