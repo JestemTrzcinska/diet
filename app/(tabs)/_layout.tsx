@@ -44,6 +44,15 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="packages"
+        options={{
+          title: 'Paczki',
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name="archivebox.fill" color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
