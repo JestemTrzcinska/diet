@@ -12,7 +12,7 @@ import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import { ThemedView } from '@/components/ThemedView';
 import { ThemedText } from '@/components/ThemedText';
 import { usePacks } from '@/context/PacksContext';
-import { DayPack } from '@/constants/types';
+import { DayPack, MealState } from '@/constants/types';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { Colors } from '@/constants/Colors';
 
@@ -41,11 +41,56 @@ function MacroRow({ totals }: { totals: DayPack['totals'] }) {
   );
 }
 
+function MealRow({ meal }: { meal: MealState }) {
+  const theme = useColorScheme() ?? 'light';
+  const iconColor = theme === 'light' ? Colors.light.text : Colors.dark.text;
+  const [expanded, setExpanded] = useState(false);
+
+  return (
+    <View style={styles.mealCard}>
+      <TouchableOpacity
+        onPress={() => setExpanded(e => !e)}
+        style={styles.mealHeader}>
+        <View style={styles.mealHeaderText}>
+          <ThemedText style={styles.mealType}>{meal.type}</ThemedText>
+          <ThemedText style={styles.mealName}>{meal.name}</ThemedText>
+        </View>
+        <MaterialIcons
+          name={expanded ? 'expand-less' : 'expand-more'}
+          size={20}
+          color={iconColor}
+        />
+      </TouchableOpacity>
+
+      {expanded && (
+        <View style={styles.mealDetails}>
+          {meal.description ? (
+            <ThemedText style={styles.mealDescription}>
+              {meal.description}
+            </ThemedText>
+          ) : null}
+          <View style={styles.productsList}>
+            {meal.products.map((product, idx) => (
+              <View key={idx} style={styles.productRow}>
+                <ThemedText style={styles.productName}>
+                  {product.name}
+                </ThemedText>
+                <ThemedText style={styles.productQty}>
+                  {product.quantity} ({product.grams} g)
+                </ThemedText>
+              </View>
+            ))}
+          </View>
+        </View>
+      )}
+    </View>
+  );
+}
+
 function PackCard({ pack }: { pack: DayPack }) {
   const { deletePack, renamePack } = usePacks();
   const theme = useColorScheme() ?? 'light';
   const iconColor = theme === 'light' ? Colors.light.text : Colors.dark.text;
-  const [expanded, setExpanded] = useState(false);
 
   const createdDate = new Date(pack.createdAt).toLocaleDateString('pl-PL', {
     day: 'numeric',
@@ -103,29 +148,11 @@ function PackCard({ pack }: { pack: DayPack }) {
 
       <MacroRow totals={pack.totals} />
 
-      <TouchableOpacity
-        onPress={() => setExpanded(e => !e)}
-        style={styles.expandButton}>
-        <ThemedText style={styles.expandLabel}>
-          {expanded ? 'Ukryj posiłki' : `Pokaż posiłki (${pack.meals.length})`}
-        </ThemedText>
-        <MaterialIcons
-          name={expanded ? 'expand-less' : 'expand-more'}
-          size={20}
-          color={iconColor}
-        />
-      </TouchableOpacity>
-
-      {expanded && (
-        <View style={styles.mealsList}>
-          {pack.meals.map((meal, idx) => (
-            <View key={idx} style={styles.mealRow}>
-              <ThemedText style={styles.mealType}>{meal.type}</ThemedText>
-              <ThemedText style={styles.mealName}>{meal.name}</ThemedText>
-            </View>
-          ))}
-        </View>
-      )}
+      <View style={styles.mealsList}>
+        {pack.meals.map((meal, idx) => (
+          <MealRow key={idx} meal={meal} />
+        ))}
+      </View>
     </View>
   );
 }
@@ -227,31 +254,63 @@ const styles = StyleSheet.create({
     fontSize: 11,
     opacity: 0.6,
   },
-  expandButton: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 4,
-  },
-  expandLabel: {
-    fontSize: 13,
-    opacity: 0.7,
-  },
   mealsList: {
     gap: 4,
     paddingTop: 4,
   },
-  mealRow: {
+  mealCard: {
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: '#e0e0e030',
+    overflow: 'hidden',
+  },
+  mealHeader: {
     flexDirection: 'row',
-    gap: 8,
     alignItems: 'center',
+    justifyContent: 'space-between',
+    padding: 8,
+    gap: 8,
+  },
+  mealHeaderText: {
+    flex: 1,
+    gap: 2,
   },
   mealType: {
-    fontSize: 11,
+    fontSize: 10,
     opacity: 0.5,
-    minWidth: 90,
+    textTransform: 'uppercase',
   },
   mealName: {
     fontSize: 13,
+    fontWeight: '500',
+  },
+  mealDetails: {
+    padding: 8,
+    paddingTop: 0,
+    gap: 8,
+    borderTopWidth: 1,
+    borderTopColor: '#e0e0e030',
+  },
+  mealDescription: {
+    fontSize: 12,
+    opacity: 0.7,
+    lineHeight: 18,
+  },
+  productsList: {
+    gap: 3,
+  },
+  productRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    gap: 8,
+  },
+  productName: {
+    fontSize: 12,
     flex: 1,
+  },
+  productQty: {
+    fontSize: 11,
+    opacity: 0.5,
   },
 });
