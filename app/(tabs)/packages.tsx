@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import {
   Alert,
   FlatList,
@@ -15,6 +15,7 @@ import { usePacks } from '@/context/PacksContext';
 import { DayPack, MealState } from '@/constants/types';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { Colors } from '@/constants/Colors';
+import { calcNutrition } from '@/utils/calcNutrition';
 
 function MacroRow({ totals }: { totals: DayPack['totals'] }) {
   return (
@@ -46,6 +47,8 @@ function MealRow({ meal }: { meal: MealState }) {
   const iconColor = theme === 'light' ? Colors.light.text : Colors.dark.text;
   const [expanded, setExpanded] = useState(false);
 
+  const totals = useMemo(() => calcNutrition([meal]), [meal]);
+
   return (
     <View style={styles.mealCard}>
       <TouchableOpacity
@@ -61,6 +64,19 @@ function MealRow({ meal }: { meal: MealState }) {
           color={iconColor}
         />
       </TouchableOpacity>
+
+      <View style={styles.mealMacroRow}>
+        <ThemedText style={styles.mealMacroItem}>
+          {totals.calories} kcal
+        </ThemedText>
+        <ThemedText style={styles.mealMacroItem}>
+          B: {totals.protein} g
+        </ThemedText>
+        <ThemedText style={styles.mealMacroItem}>T: {totals.fat} g</ThemedText>
+        <ThemedText style={styles.mealMacroItem}>
+          W: {totals.carbohydrates} g
+        </ThemedText>
+      </View>
 
       {expanded && (
         <View style={styles.mealDetails}>
@@ -275,6 +291,17 @@ const styles = StyleSheet.create({
   mealHeaderText: {
     flex: 1,
     gap: 2,
+  },
+  mealMacroRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingHorizontal: 8,
+    paddingBottom: 8,
+    gap: 4,
+  },
+  mealMacroItem: {
+    fontSize: 11,
+    opacity: 0.6,
   },
   mealType: {
     fontSize: 10,
