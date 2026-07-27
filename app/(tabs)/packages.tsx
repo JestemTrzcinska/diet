@@ -66,21 +66,22 @@ function MealRow({ meal }: { meal: MealState }) {
         <View style={styles.mealDetails}>
           {meal.description ? (
             <ThemedText style={styles.mealDescription}>
-              {meal.description}
+              {String(meal.description)
+                .replaceAll(/(\d+\.)\s+/g, '\n$1 ')
+                .replaceAll(': ', '\n')}
             </ThemedText>
           ) : null}
-          <View style={styles.productsList}>
-            {meal.products.map((product, idx) => (
-              <View key={idx} style={styles.productRow}>
-                <ThemedText style={styles.productName}>
-                  {product.name}
-                </ThemedText>
-                <ThemedText style={styles.productQty}>
-                  {product.quantity} ({product.grams} g)
-                </ThemedText>
-              </View>
-            ))}
-          </View>
+          {meal.products.map((product, idx) => (
+            <View key={idx} style={styles.productRow}>
+              <ThemedText style={styles.productCell}>{product.name}</ThemedText>
+              <ThemedText style={styles.productCell}>
+                {product.grams} gramów
+              </ThemedText>
+              <ThemedText style={styles.productCell}>
+                {product.quantity}
+              </ThemedText>
+            </View>
+          ))}
         </View>
       )}
     </View>
@@ -286,31 +287,25 @@ const styles = StyleSheet.create({
   },
   mealDetails: {
     padding: 8,
-    paddingTop: 0,
-    gap: 8,
+    gap: 0,
     borderTopWidth: 1,
     borderTopColor: '#e0e0e030',
   },
   mealDescription: {
-    fontSize: 12,
-    opacity: 0.7,
-    lineHeight: 18,
-  },
-  productsList: {
-    gap: 3,
+    fontSize: 13,
+    opacity: 0.75,
+    lineHeight: 19,
+    marginBottom: 8,
   },
   productRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'center',
-    gap: 8,
+    paddingVertical: 8,
+    borderBottomWidth: 1,
+    borderBottomColor: '#f5f5f5',
   },
-  productName: {
-    fontSize: 12,
+  productCell: {
     flex: 1,
-  },
-  productQty: {
-    fontSize: 11,
-    opacity: 0.5,
+    fontSize: 14,
   },
 });
